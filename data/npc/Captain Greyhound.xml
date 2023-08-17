@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tibia Captain" script="data/npc/scripts/Captain Greyhound.lua" walkinterval="2000" loorchange="0">
+<health now="100" max="100"/>
+<look type="134" head="19" body="95" legs="95" feet="19" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Bem-vindo a bordo, |PLAYERNAME|. Voce quer Viajar = {travel} ?"/>
+        <parameter key="message_farewell" value="Tchau. Recomende-nos se voce estivesse satisfeito com nosso servico."/>
+    </parameters>
+</npc>
