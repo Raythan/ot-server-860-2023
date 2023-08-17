@@ -8,7 +8,7 @@ setCombatArea(combat, area)
 
 function onGetFormulaValues(cid, level, skill, attack, factor)
 	local skillTotal, levelTotal = skill + attack * 2, level / 5
-	return -(skillTotal * 1.1 + levelTotal), -(skillTotal * 3 + levelTotal)
+	return -(skillTotal * 1.25 + levelTotal), -(skillTotal * 3.0 + levelTotal)
 end
 
 setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")

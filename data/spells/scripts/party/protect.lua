@@ -5,14 +5,14 @@ setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_GREEN)
 setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = createConditionObject(CONDITION_ATTRIBUTES)
-setConditionParam(condition, CONDITION_PARAM_SUBID, 2)
+setConditionParam(condition, CONDITION_PARAM_SUBID, 3)
 setConditionParam(condition, CONDITION_PARAM_BUFF, true)
 setConditionParam(condition, CONDITION_PARAM_TICKS, 2 * 60 * 1000)
 setConditionParam(condition, CONDITION_PARAM_SKILL_SHIELD, 2)
 
 local config = {
 	baseMana = 90,
-	hardcoreManaSpent = getConfigValue("addManaSpentInPvPZone")
+	pvpManaSpent = getConfigValue("addManaSpentInPvPZone")
 }
 
 function onCastSpell(cid, var)
@@ -51,7 +51,7 @@ function onCastSpell(cid, var)
 	end
 
 	doCreatureAddMana(cid, -(mana - config.baseMana), false)
-	if(not getPlayerFlagValue(cid, PlayerFlag_NotGainMana) and (not getTileInfo(getThingPosition(cid)).hardcore or config.hardcoreManaSpent)) then
+	if(not getPlayerFlagValue(cid, PlayerFlag_NotGainMana) and (not getTileInfo(getThingPosition(cid)).pvp or config.pvpManaSpent)) then
 		doPlayerAddSpentMana(cid, (mana - config.baseMana))
 	end
 

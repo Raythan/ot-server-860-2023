@@ -1,0 +1,2 @@
+!premiar player, 2160, 100
+!premiar todos, vampire shield
