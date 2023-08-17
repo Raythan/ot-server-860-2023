@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Rent System" version="1.0" author="Kimoszin" contact="tibiaking.com" enabled="yes">
+        <config name="rent_config"><![CDATA[
+                messages = {
+                        sucess = MESSAGE_INFO_DESCR,
+                        fail = MESSAGE_STATUS_WARNING,
+                }
+ 
+                warningStorage = 45768
+ 
+                items = {
+                        ["knight armor"] = {id=2476, time=1, price=3000, premium=true, cap=false},
+                        ["demon legs"] = {id=2495, time=3, price=3000, premium=true, cap=true},
+                        ["blue legs"] = {id=7730, time=2, price=3000, premium=true, cap=true},
+                        ["demon shield"] = {id=2520, time=1, price=3000, premium=true, cap=true},
+                }
+ 
+                function doWarningItemWasRemoved(cid)
+                        if (getCreatureStorage(cid, warningStorage) > -1) then
+                                        local item = items[getItemNameById(getCreatureStorage(cid, warningStorage))]
+                                        doPlayerSendTextMessage(cid, messages.sucess, "Ok, "..item.time..(item.time > 1 and " minutes" or " minute").." has passed, the rent of "..getItemNameById(item.id).." ended.")
+                                doCreatureSetStorage(cid, warningStorage, -1)
+                        end
+                end
+        ]]></config>
+ 
+        <talkaction words="!rent" event="buffer"><![CDATA[
+                domodlib('rent_config')
+                local item, itemuid = items[param:lower()], math.random(1000, 65535)
+ 
+                if (param == "") then
+                        return doPlayerSendTextMessage(cid, messages.fail, "Sorry, you need to inform parameters.")
+                end
+ 
+                if (param == "list") then
+                        local str = "~* Rent System by Kimoszin *~\n\n"
+                        for name, iten in pairs(items) do
+                                str = str..string.sub(name, 0, 1):upper()..string.sub(name, 2):lower().."  -  "..iten.price.."gps \n"
+                        end
+                        str = str .."\n WWW.TIBIAKING.COM"
+                        return doPlayerPopupFYI(cid, str)
+                end
+ 
+                if not(item) then
+                        return doPlayerSendTextMessage(cid, messages.fail, "Sorry, but it is not possible to rent this item.")
+                end
+ 
+                if (item.premium and not(isPremium(cid))) then
+                        return doPlayerSendTextMessage(cid, messages.fail, "You need a premium account.")      
+                end
+ 
+                if (item.cap and not(getPlayerFreeCap(cid) >= getItemWeightById(item.id, 1, 1))) then
+                        return doPlayerSendTextMessage(cid, messages.fail, "You don't have capacity.")
+                end
+ 
+                if not(doPlayerRemoveMoney(cid, item.price)) then
+                        return doPlayerSendTextMessage(cid, messages.fail, "Sorry, you do not have any money.")
+                end
+ 
+                doItemSetAttribute(doPlayerAddItem(cid, item.id, 1), "uid", itemuid)
+                doPlayerSendTextMessage(cid, messages.sucess, "You rented a "..getItemNameById(item.id).." for "..item.time.. (item.time > 1 and " minutes" or " minute")..".")
+                doCreatureSetStorage(cid, warningStorage, item.id)
+ 
+                local player_id = getPlayerGUID(cid)
+                addEvent(function()
+                                        local player = getPlayerByGUID(player_id)
+                                        if not(isPlayer(player)) then
+                                                db.executeQuery("DELETE FROM `player_items` WHERE `player_items`.`player_id` = "..player_id.." AND `itemtype` = "..item.id..";")
+                                        else
+                                                doPlayerSendTextMessage(cid, messages.sucess, "Ok, "..item.time..(item.time > 1 and " minutes" or " minute").." has passed, the rent of "..getItemNameById(item.id).." ended.")
+                                                doCreatureSetStorage(cid, warningStorage, -1)
+                                                doRemoveItem(itemuid, 1)
+                                        end
+                                end, item.time * 60 * 1000)
+        ]]></talkaction>
+ 
+        <creatureevent name="rentLogin" type="login" event="buffer"><![CDATA[
+                domodlib('rent_config')
+                doWarningItemWasRemoved(cid)
+        ]]></creatureevent>
+</mod>

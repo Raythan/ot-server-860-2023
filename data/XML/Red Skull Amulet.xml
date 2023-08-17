@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mod name="Red Skull Amulet" version="1.0" author="--" contact="--" enabled="yes">
+  <description><![CDATA[
+               Ele protege voce toda hora que morrer.
+        ]]></description>
+  <item id="10719" article="a" name="Forever Aol" override="yes" />
+  <event type="login" name="RedSkullAmulet_Login" event="buffer"><![CDATA[
+                registerCreatureEvent(cid, "RedSkullAmulet_Login")
+        ]]></event>
+  <event type="death" name="RedSkullAmulet_Login" event="script"><![CDATA[
+                function onDeath(cid, corpse, deathList)
+                        if (getPlayerSlotItem(cid, CONST_SLOT_NECKLACE).itemid == 10719) then
+                                if (getCreatureSkullType(cid) == SKULL_RED) then
+                                        doCreatureSetDropLoot(cid, false)
+                                end
+                        end
+                        return true
+                end
+        ]]></event>
+</mod>

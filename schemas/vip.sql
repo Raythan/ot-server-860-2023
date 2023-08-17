@@ -1,0 +1,1 @@
+ALTER TABLE `accounts` ADD `vip_time` int(11) NOT NULL DEFAULT 0;

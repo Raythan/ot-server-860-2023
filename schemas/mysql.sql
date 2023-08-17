@@ -40,7 +40,7 @@ CREATE TABLE `accounts`
 	`premdays` INT NOT NULL DEFAULT 0,
 	`lastday` INT UNSIGNED NOT NULL DEFAULT 0,
 	`email` VARCHAR(255) NOT NULL DEFAULT '',
-	`key` VARCHAR(32) NOT NULL DEFAULT '0',
+	`key` VARCHAR(20) NOT NULL DEFAULT '0',
 	`blocked` TINYINT(1) NOT NULL DEFAULT FALSE COMMENT 'internal usage',
 	`warnings` INT NOT NULL DEFAULT 0,
 	`group_id` INT NOT NULL DEFAULT 1,
@@ -100,18 +100,15 @@ CREATE TABLE `players`
 	`online` TINYINT(1) NOT NULL DEFAULT 0,
 	`marriage` INT UNSIGNED NOT NULL DEFAULT 0,
 	`promotion` INT NOT NULL DEFAULT 0,
-	`deleted` INT NOT NULL DEFAULT 0,
+	`deleted` TINYINT(1) NOT NULL DEFAULT FALSE,
 	`description` VARCHAR(255) NOT NULL DEFAULT '',
-	`cast` TINYINT NOT NULL DEFAULT 0,
-	`castViewers` INT(11) NOT NULL DEFAULT 0,
-	`castDescription` VARCHAR(255) NOT NULL DEFAULT '',
 	PRIMARY KEY (`id`), UNIQUE (`name`, `deleted`),
 	KEY (`account_id`), KEY (`group_id`),
 	KEY (`online`), KEY (`deleted`),
 	FOREIGN KEY (`account_id`) REFERENCES `accounts`(`id`) ON DELETE CASCADE
 ) ENGINE = InnoDB;
 
-INSERT INTO `players` VALUES (1, 'Account Manager', 0, 1, 1, 1, 0, 150, 150, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 50, 50, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '');
+INSERT INTO `players` VALUES (1, 'Account Manager', 0, 1, 1, 1, 0, 150, 150, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 50, 50, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '');
 
 CREATE TABLE `account_viplist`
 (
@@ -209,7 +206,6 @@ CREATE TABLE `killers`
 	`death_id` INT NOT NULL,
 	`final_hit` TINYINT(1) UNSIGNED NOT NULL DEFAULT FALSE,
 	`unjustified` TINYINT(1) UNSIGNED NOT NULL DEFAULT FALSE,
-	`war` INT NOT NULL DEFAULT 0,
 	PRIMARY KEY (`id`),
 	FOREIGN KEY (`death_id`) REFERENCES `player_deaths`(`id`) ON DELETE CASCADE
 ) ENGINE = InnoDB;
@@ -315,9 +311,7 @@ CREATE TABLE `guilds`
 	`name` VARCHAR(255) NOT NULL,
 	`ownerid` INT NOT NULL,
 	`creationdata` INT NOT NULL,
-	`checkdata` INT NOT NULL,
 	`motd` VARCHAR(255) NOT NULL,
-	`balance` BIGINT UNSIGNED NOT NULL DEFAULT 0,
 	PRIMARY KEY (`id`),
 	UNIQUE (`name`, `world_id`)
 ) ENGINE = InnoDB;
@@ -339,35 +333,6 @@ CREATE TABLE `guild_ranks`
 	`level` INT NOT NULL COMMENT '1 - leader, 2 - vice leader, 3 - member',
 	PRIMARY KEY (`id`),
 	FOREIGN KEY (`guild_id`) REFERENCES `guilds`(`id`) ON DELETE CASCADE
-) ENGINE = InnoDB;
-
-CREATE TABLE `guild_wars`
-(
-	`id` INT NOT NULL AUTO_INCREMENT,
-	`guild_id` INT NOT NULL,
-	`enemy_id` INT NOT NULL,
-	`begin` BIGINT NOT NULL DEFAULT 0,
-	`end` BIGINT NOT NULL DEFAULT 0,
-	`frags` INT UNSIGNED NOT NULL DEFAULT 0,
-	`payment` BIGINT UNSIGNED NOT NULL DEFAULT 0,
-	`guild_kills` INT UNSIGNED NOT NULL DEFAULT 0,
-	`enemy_kills` INT UNSIGNED NOT NULL DEFAULT 0,
-	`status` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
-	PRIMARY KEY (`id`), KEY `status` (`status`),
-	KEY `guild_id` (`guild_id`), KEY `enemy_id` (`enemy_id`),
-	FOREIGN KEY (`guild_id`) REFERENCES `guilds`(`id`) ON DELETE CASCADE,
-	FOREIGN KEY (`enemy_id`) REFERENCES `guilds`(`id`) ON DELETE CASCADE
-) ENGINE=InnoDB;
-
-CREATE TABLE `guild_kills`
-(
-	`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	`guild_id` INT NOT NULL,
-	`war_id` INT NOT NULL,
-	`death_id` INT NOT NULL,
-	FOREIGN KEY (`guild_id`) REFERENCES `guilds`(`id`) ON DELETE CASCADE,
-	FOREIGN KEY (`war_id`) REFERENCES `guild_wars`(`id`) ON DELETE CASCADE,
-	FOREIGN KEY (`death_id`) REFERENCES `player_deaths`(`id`) ON DELETE CASCADE
 ) ENGINE = InnoDB;
 
 CREATE TABLE `bans`
@@ -400,11 +365,11 @@ CREATE TABLE `global_storage`
 CREATE TABLE `server_config`
 (
 	`config` VARCHAR(35) NOT NULL DEFAULT '',
-	`value` VARCHAR(255) NOT NULL DEFAULT '',
+	`value` INT NOT NULL,
 	UNIQUE (`config`)
 ) ENGINE = InnoDB;
 
-INSERT INTO `server_config` VALUES ('db_version', 25);
+INSERT INTO `server_config` VALUES ('db_version', 23);
 
 CREATE TABLE `server_motd`
 (

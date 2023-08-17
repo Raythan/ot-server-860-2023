@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mounts>
+	<mount id="1" clientId="368" name="Widow Queen" speed="40" premium="no" />
+	<mount id="2" clientId="369" name="Racing Bird" speed="30" premium="no" />
+	<mount id="3" clientId="370" name="War Bear" speed="25" premium="no" />
+	<mount id="4" clientId="371" name="Black Sheep" speed="10" premium="no" />
+	<mount id="5" clientId="372" name="Midnight Panther" speed="1" premium="no" />
+	<mount id="6" clientId="373" name="Draptor" speed="80" premium="no" />
+	<mount id="7" clientId="374" name="Titanica" speed="60" premium="no" />
+	<mount id="8" clientId="375" name="Tin Lizzard" speed="70" premium="no" />
+	<mount id="9" clientId="376" name="Blazebringer" speed="50" premium="no" />
+	<mount id="10" clientId="377" name="Rapid Boar" speed="60" premium="no" />
+	<mount id="11" clientId="378" name="Stampor" speed="100" premium="no" />
+	<mount id="12" clientId="379" name="Undead Cavebear" speed="30" premium="no" />
+	<mount id="13" clientId="387" name="Donkey" speed="50" premium="no" />
+	<mount id="14" clientId="388" name="Tiger Slug" speed="50" premium="no" />
+	<mount id="15" clientId="389" name="Uniwheel" speed="60" premium="no" />
+	<mount id="16" clientId="390" name="Crystal Wolf" speed="80" premium="no" />
+	<mount id="17" clientId="392" name="Brown War Horse" speed="90" premium="no" />
+	<mount id="18" clientId="401" name="Kingly Deer" speed="90" premium="no" />
+	<mount id="19" clientId="402" name="Tamed Panda" speed="2" premium="no" />
+	<mount id="20" clientId="405" name="Dromedary" speed="30" premium="no" />
+	<mount id="21" clientId="406" name="King Scorpion" speed="60" premium="no" />
+	<mount id="22" clientId="421" name="Rented Horse" speed="90" premium="no" />
+	<mount id="23" clientId="426" name="Fire War Horse" speed="120" premium="no" />
+	<mount id="24" clientId="427" name="Shadow Draptor" speed="150" premium="no" />
+	<mount id="25" clientId="437" name="Rented Horse" speed="100" premium="no" />
+	<mount id="26" clientId="438" name="Rented Horse" speed="55" premium="no" />
+	<mount id="27" clientId="447" name="Ladybug" speed="65" premium="no" />
+	<mount id="28" clientId="450" name="Manta" speed="70" premium="no" />
+	<mount id="29" clientId="502" name="Ironblight" speed="80" premium="no" />
+	<mount id="30" clientId="503" name="Magma Crawler" speed="30" premium="no" />
+	<mount id="31" clientId="506" name="Dragonling" speed="40" premium="no" />
+	<mount id="32" clientId="515" name="Gnarlhound" speed="50" premium="no" />
+	<mount id="33" clientId="521" name="Crimson Ray" speed="60" premium="no" />
+	<mount id="34" clientId="522" name="Steelbeak" speed="40" premium="no" />
+	<mount id="35" clientId="526" name="Water Buffalo" speed="50" premium="no" />
+	<mount id="36" clientId="546" name="Armoured Scorpion" speed="44" premium="no" />
+	<mount id="37" clientId="547" name="Armoured Dragonling" speed="33" premium="no" />
+	<mount id="38" clientId="548" name="Armoured Cavebear" speed="66" premium="no" />
+	<mount id="39" clientId="559" name="The Hellgrip" speed="99" premium="no" />
+	<mount id="40" clientId="571" name="Lion" speed="88" premium="no" />
+	<mount id="41" clientId="572" name="Golden Lion" speed="77" premium="no" />
+</mounts>

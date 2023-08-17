@@ -7,6 +7,7 @@ local reloadInfo = {
 	{RELOAD_GLOBALEVENTS, "globalevents", "global events", "globalevent", "global event"},
 	{RELOAD_GROUPS, "groups", "playergroups", "group"},
 	{RELOAD_HIGHSCORES, "highscores", "scores", "highscore", "score"},
+	{RELOAD_HOUSEPRICES, "houseprices", "house prices", "prices"},
 	{RELOAD_ITEMS, "items", "item"},
 	{RELOAD_MONSTERS, "monsters", "monster"},
 	{RELOAD_MOVEEVENTS, "moveevents", "move events", "movements", "move", "movement"},
@@ -22,23 +23,20 @@ local reloadInfo = {
 	{RELOAD_MODS, "mods", "modifications"},
 	{RELOAD_ALL, "all", "everything"}
 }
-
 function onSay(cid, words, param, channel)
-	if(param == '') then
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
-		return true
-	end
-
-	param = param:lower()
-	local str = "Reload type not found."
-	for _, v in ipairs(reloadInfo) do
-		if(table.isStrIn(param, v)) then
-			doReloadInfo(v[1], cid)
-			str = "Reloading " .. v[2] .. "..."
-			break
-		end
-	end
-
-	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str)
-	return true
+if(param == '') then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
+return true
+end
+param = param:lower()
+local str = "Reload type not found."
+for _, v in ipairs(reloadInfo) do
+if(table.isStrIn(param, v)) then
+doReloadInfo(v[1], cid)
+str = "Reloading " .. v[2] .. "..."
+break
+end
+end
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str)
+return true
 end
