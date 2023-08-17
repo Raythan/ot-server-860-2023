@@ -1,20 +1,3 @@
-SPOTS = {384, 418, 8278, 8592}
-ROPABLE = { 294, 369, 370, 383, 392, 408, 409, 427, 428, 430, 462, 469, 470, 482, 484, 485, 489, 924, 3135, 3136, 7933, 7938, 8170, 8286, 8285,
-	8284, 8281, 8280, 8279, 8277, 8276, 8323, 8380, 8567, 8585, 8596, 8595, 8249, 8250, 8251, 8252, 8253, 8254, 8255, 8256, 8972, 9606, 9625 }
-
-HOLES = {468, 481, 483, 7932, 8579}
-SAND_HOLES = {[9059] = 489, [8568] = 8567}
-SAND = 231
-
-JUNGLE_GRASS = {2782, 3985}
-SPIDER_WEB = {7538, 7539}
-WILD_GROWTH = {1499, 11095}
-
-SPECIAL_FOODS = {
-	[9992] = "Gulp.", [9993] = "Chomp.", [9994] = "Chomp.", [9995] = "Chomp.", [9997] = "Yum.",
-	[9998] = "Munch.", [9999] = "Chomp.", [10000] = "Mmmm.", [10001] = "Smack."
-}
-
 function destroyItem(cid, itemEx, toPosition)
 	if(itemEx.uid <= 65535 or itemEx.actionid > 0) then
 		return false
@@ -67,4 +50,27 @@ function destroyItem(cid, itemEx, toPosition)
 
 	doSendMagicEffect(toPosition, CONST_ME_POFF)
 	return true
+end
+
+function isInRange(position, fromPosition, toPosition)
+	return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
+end
+function getPlayerExhaust(player,number,time)
+
+now = os.time()
+before = getPlayerStorageValue(player,number)
+
+exhaust = os.difftime(now,before)
+
+if before == -1 then
+setPlayerStorageValue(player,number,now)
+return -1
+else
+if exhaust >= time then
+setPlayerStorageValue(player,number,now)
+return -1
+else
+return 1
+end
+end
 end
