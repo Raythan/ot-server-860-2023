@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- ChaitoSoft.com -->
+	<event type="login" name="woe_rate" event="script" value="expwoe.lua"/>
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
-
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
-
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="death" name="PythiusDead" script="pythius_the_rotten.lua" />
+	<event type="death" name="monster2" event="script" value="monster2.lua"/>
+	<event type="death" name="inquisitionPortals" script="teleports_inquisition.lua"/>
+    <event type="advance" name="PlayerAdvance" event="script" value="playeradvance.lua"/>	
+	
+	<!-- WoE -->
+	<event type="death" name="empe_broken" event="script" value="empe_broken.lua"/>
+	<event type="death" name="pre_empes" event="script" value="pre_empes.lua"/>
+	<event type="statschange" name="empe_dmg" event="script" value="empe_dmg.lua"/>
+	<event type="login" name="reg_vs_guard" event="script" value="vs_guard.lua"/>
+	<event type="statschange" name="vs_guard" event="script" value="vs_guard.lua"/>
+    <event type="login" name="ExpVip" script="vipexp.lua"/>
+    <event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
+    <event type="advance" name="levelplayer" script="20k.lua"/>
+    <event type="login" name="FimVip" event="script" value="vip.lua"/>
+	
+	<!--Treiners Offline-->
+	<event type="login" name="offtrain_PlayerLogin" event="script" value="offtrain_login.lua"/>
+    <event type="logout" name="offtrain_PlayerLogout" event="script" value="offtrain_logout.lua"/>
 
-	<event type="moveitem" name="MoveItem" event="script" value="houseprotect.lua"/>
-
-	<event type="extendedopcode" name="ExtendedOpcode" event="script" value="extendedopcode.lua"/>
+    <!-- Vip System -->
+	<event type="login" name="CheckVip" script="endvip.lua"/>
+		
+    <!-- Batle System -->
+    <event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
+    <event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>
+    <event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/>	
+	
+	<!-- Custom systems -->
+	<event type="kill" name="PlayerKill" event="script" value="arenakill.lua"/>
+	<event type="death" name="inquisitionPortals" event="script" value="inquisitionPortals.lua"/>
+	<event type="death" name="PlayerDeath" event="script" value="playerdeath.lua"/>
+	<event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/>
+	<event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/> 
+	<event type="death" name="Azerus" event="script" value="azerus.lua"/>  
+	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
 </creaturescripts>

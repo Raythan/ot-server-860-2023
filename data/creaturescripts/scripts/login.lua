@@ -4,17 +4,21 @@ local config = {
 }
 
 function onLogin(cid)
-	local loss = getConfigValue('deathLostPercent')
-	if(loss ~= nil and getPlayerStorageValue(cid, "bless") ~= 5) then
-		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
-	end
+accountManager = "Account Manager"                       
+managerCounter = 0
 
-	if(getPlayerStorageValue(cid, "death_bless") == 1) then
-		local t = {PLAYERLOSS_EXPERIENCE, PLAYERLOSS_SKILLS, PLAYERLOSS_ITEMS, PLAYERLOSS_CONTAINERS}
-		for i = 1, #t do
-			doPlayerSetLossPercent(cid, t[i], 100)
-		end
-		setPlayerStorageValue(cid, "death_bless", 0)
+   for i, player in ipairs(getOnlinePlayers()) do
+      if accountManager:lower() == player:lower() then             
+      managerCounter = managerCounter + 1
+      end 
+   end
+ 
+   if managerCounter >= 3 then
+      return false
+   end
+	local loss = getConfigValue('deathLostPercent')
+	if(loss ~= nil) then
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
 	end
 
 	local accountManager = getPlayerAccountManager(cid)
@@ -49,7 +53,57 @@ function onLogin(cid)
 		registerCreatureEvent(cid, "SkullCheck")
 	end
 
-	registerCreatureEvent(cid, "ReportBug")
-	registerCreatureEvent(cid, "AdvanceSave")
-	return true
+registerCreatureEvent(cid, "ReportBug")
+registerCreatureEvent(cid, "AdvanceSave")
+registerCreatureEvent(cid, "attackguild")	
+registerCreatureEvent(cid, "advance")
+registerCreatureEvent(cid, "FimVip")
+registerCreatureEvent(cid, "SkullCheck")
+registerCreatureEvent(cid, "demonOakLogout")
+registerCreatureEvent(cid, "demonOakDeath")
+registerCreatureEvent(cid, "ReportBug")
+registerCreatureEvent(cid, "bluelegs")
+registerCreatureEvent(cid, "VipReceive")
+registerCreatureEvent(cid, "FirstItems")
+registerCreatureEvent(cid, "Promot")
+registerCreatureEvent(cid, "PlayerKill")
+registerCreatureEvent(cid, "KillingInTheNameOf")
+registerCreatureEvent(cid, "PythiusDead")
+registerCreatureEvent(cid, "ExpVip")
+registerCreatureEvent(cid, "levelplayer")
+registerCreatureEvent(cid, "PlayerAdvance")
+
+    if (InitArenaScript ~= 0) then
+    InitArenaScript = 1
+
+        for i = 42300, 42309 do
+            setGlobalStorageValue(i, 0)
+            setGlobalStorageValue(i+100, 0)
+        end
+    end
+
+    if getPlayerStorageValue(cid, 42309) < 1 then
+        for i = 42300, 42309 do
+            setPlayerStorageValue(cid, i, 0)
+        end
+    end
+
+    if getPlayerStorageValue(cid, 42319) < 1 then
+        for i = 42310, 42319 do
+            setPlayerStorageValue(cid, i, 0)
+        end
+    end
+
+    if getPlayerStorageValue(cid, 42329) < 1 then
+        for i = 42320, 42329 do
+            setPlayerStorageValue(cid, i, 0)
+        end
+    end
+    if getPlayerStorageValue(cid, 42355) == -1 then
+        setPlayerStorageValue(cid, 42355, 0)
+    end
+    setPlayerStorageValue(cid, 42350, 0)
+    setPlayerStorageValue(cid, 42352, 0)
+return true
 end
+
