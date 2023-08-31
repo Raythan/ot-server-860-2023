@@ -640,7 +640,6 @@
 		<attribute key="type" value="magicfield" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="20" />
-		<attribute key="blocksolid" value="1" />
 	</item>
 	<item id="1498" article="a" name="magic wall">
 		<attribute key="type" value="magicfield" />
@@ -649,7 +648,6 @@
 		<attribute key="type" value="magicfield" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="45" />
-		<attribute key="blocksolid" value="1" />
 	</item>
 	<item id="1500" article="a" name="fire field">
 		<attribute key="type" value="magicfield" />
