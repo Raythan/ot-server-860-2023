@@ -1,0 +1,4 @@
+!character buy,nome -- Compra um character
+!character sell,nome,preço -- Vende um character
+!character remove,nome -- Remove um character da lista de vendas, caso ele esteja à venda
+!character list -- Vê a lista de characters disponíveis para a venda

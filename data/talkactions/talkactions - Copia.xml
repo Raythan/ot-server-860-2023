@@ -71,10 +71,7 @@
 	<talkaction words="!frags;/frags" event="script" value="frags.lua"/>
 	<talkaction words="!uptime;/uptime" event="script" value="uptime.lua"/>
 	<talkaction words="!online;/online" event="script" value="online.lua"/>
-	<talkaction words="!vipdays;!buyvip;/checkvip;/addvip;/delvip" script="systemvip.lua"/>
-	<talkaction words="!mount" event="script" value="mountdoll.lua"/>
-	<talkaction words="!addon" event="script" value="addondoll.lua"/>
-	<talkaction words="!vipaddon" event="script" value="vipaddondoll.lua"/>
+	<!--<talkaction words="!addon" event="script" value="addondoll.lua"/>-->
 	<talkaction words="!serverinfo;/serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="!commands;/commands" event="script" value="commands.lua"/>
 	<talkaction words="!buybless;/buybless;!bless;/bless" script="bless.lua" />
