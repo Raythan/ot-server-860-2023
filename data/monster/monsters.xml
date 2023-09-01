@@ -66,7 +66,7 @@
 	<!-- 8.6 -->
 	<monster name="Abomination Fury" file="8.6/Abomination Fury.xml"/>
 	<monster name="Brimstone Bug" file="8.6/Brimstone Bug.xml"/>
-	<monster name="Butterfly Demon" file="8.6/Butterfly Demon.xml"/>
+	<monster name="butterfly demon" file="8.6/butterfly demon.xml"/>
 	<monster name="Chrak" file="8.6/Chrak.xml"/>
 	<monster name="Draken Abomination" file="8.6/Draken Abomination.xml"/>
 	<monster name="Draken Elite" file="8.6/Draken Elite.xml"/>
@@ -385,12 +385,17 @@
 	<monster name="Bug" file="Insects/bug.xml"/>
 	<monster name="Centipede" file="Insects/centipede.xml"/>
 	<monster name="Cockroach" file="Insects/cockroach.xml"/>
+	<monster name="Insect Swarm" file="Insects/insect swarm.xml"/>
+	<monster name="Lancer Beetle" file="Insects/lancer beetle.xml"/>
 	<monster name="Larva" file="Insects/larva.xml"/>
-	<monster name="Purple Butterfly" file="Insects/purple butterfly.xml"/>
+	<monster name="Pink Butterfly" file="Insects/pink butterfly.xml"/>
 	<monster name="Red Butterfly" file="Insects/red butterfly.xml"/>
+	<monster name="Sandcrawler" file="Insects/sandcrawler.xml"/>
 	<monster name="Scarab" file="Insects/scarab.xml"/>
+	<monster name="Terramite" file="Insects/terramite.xml"/>
 	<monster name="Wasp" file="Insects/wasp.xml"/>
 	<monster name="Yellow Butterfly" file="Insects/yellow butterfly.xml"/>
+	<monster name="Butterfly" file="Insects/butterfly.xml"/>
 
 	<!-- Lizards -->
 	<monster name="Eternal Guardian" file="Lizards/eternal guardian.xml"/>
