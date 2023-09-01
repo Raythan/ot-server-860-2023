@@ -393,9 +393,16 @@
 	<monster name="Yellow Butterfly" file="Insects/yellow butterfly.xml"/>
 
 	<!-- Lizards -->
+	<monster name="Eternal Guardian" file="Lizards/eternal guardian.xml"/>
+	<monster name="Battlemaster Zunzu" file="Lizards/battlemaster zunzu.xml"/>
+	<monster name="Lizard Chosen" file="Lizards/lizard chosen.xml"/>
+	<monster name="Lizard Dragon Priest" file="Lizards/lizard dragon priest.xml"/>
+	<monster name="Lizard High Guard" file="Lizards/lizard high guard.xml"/>
+	<monster name="Lizard Legionnaire" file="Lizards/lizard legionnaire.xml"/>
 	<monster name="Lizard Sentinel" file="Lizards/lizard sentinel.xml"/>
 	<monster name="Lizard Snakecharmer" file="Lizards/lizard snakecharmer.xml"/>
 	<monster name="Lizard Templar" file="Lizards/lizard templar.xml"/>
+	<monster name="Lizard Zaogun" file="Lizards/lizard zaogun.xml"/>
 	<monster name="Wyvern" file="Lizards/wyvern.xml"/>
 
 	<!-- Minotaurs -->
