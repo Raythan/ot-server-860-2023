@@ -100,6 +100,7 @@
 	<monster name="Scorpion" file="Arachnids/scorpion.xml"/>
 	<monster name="Spider" file="Arachnids/spider.xml"/>
 	<monster name="Tarantula" file="Arachnids/tarantula.xml"/>
+	<monster name="Wailing Widow" file="Arachnids/wailing widow.xml"/>
 
 	<!-- Arena -->
 		<!-- Greenhorn -->
@@ -407,6 +408,9 @@
 	<monster name="Badger" file="Misc/badger.xml"/>
 	<monster name="Bat" file="Misc/bat.xml"/>
 	<monster name="Deer" file="Misc/deer.xml"/>
+	<monster name="Draken Spellweaver" file="Misc/draken spellweaver.xml"/>
+	<monster name="Draken Warmaster" file="Misc/draken warmaster.xml"/>
+	<monster name="Gnarlhound" file="Misc/gnarlhound.xml"/>
 	<monster name="Hacker" file="Misc/hacker.xml"/>
 	<monster name="Halloween Hare" file="Misc/halloweenhare.xml"/>
 	<monster name="Hyaena" file="Misc/hyaena.xml"/>
