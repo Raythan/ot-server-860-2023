@@ -31,18 +31,22 @@
 	<wand id="114" level="8" mana="15" type="physical" event="script" value="hell_rod.lua"> <!-- Hell Rod -->
         <vocation id="2" showInDescription="0"/>
 		<vocation id="6"/>
+		<vocation id="10"/>
     </wand>
 	<wand id="118" level="8" mana="15" type="physical" event="script" value="ultimate_rod.lua"> <!-- Ultimate Rod -->
         <vocation id="2" showInDescription="0"/>
 		<vocation id="6"/>
+		<vocation id="10"/>
     </wand>
 	<wand id="157" level="8" mana="15" type="physical" event="script" value="extreme_rod.lua"> <!-- Extreme Rod -->
         <vocation id="2" showInDescription="0"/>
 		<vocation id="6"/>
+		<vocation id="10"/>
     </wand>
 	<wand id="145" level="8" mana="15" type="physical" event="script" value="forgotten_rod.lua"> <!-- Forgotten Rod -->
        <vocation id="2" showInDescription="0"/>
 		<vocation id="6"/>
+		<vocation id="10"/>
     </wand>
 
 	<!-- Wands -->
@@ -73,18 +77,22 @@
 	<wand id="168" level="8" mana="15" type="physical" event="script" value="hell_wand.lua"> <!-- Hell Wand -->
         <vocation id="1" showInDescription="0"/>
 		<vocation id="5"/>
+		<vocation id="9"/>
     </wand>
 	<wand id="121" level="8" mana="15" type="physical" event="script" value="ultimate_wand.lua"> <!-- Ultimate Wand -->
         <vocation id="1" showInDescription="0"/>
 		<vocation id="5"/>
+		<vocation id="9"/>
     </wand>
 	<wand id="159" level="8" mana="15" type="physical" event="script" value="extreme_wand.lua"> <!-- Extreme Wand -->
         <vocation id="1" showInDescription="0"/>
 		<vocation id="5"/>
+		<vocation id="9"/>
     </wand>
 	<wand id="181" level="8" mana="15" type="physical" event="script" value="forgotten_wand.lua"> <!-- Forgotten Wand -->
         <vocation id="1" showInDescription="0"/>
 		<vocation id="5"/>
+		<vocation id="9"/>
     </wand>
 
 	<!-- Swords -->
