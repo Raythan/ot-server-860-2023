@@ -44,6 +44,7 @@
 			<inside>
 				<item id="2513" chance="2500"/><!-- battle shield -->
 				<item id="2381" chance="1955"/><!-- halberd -->
+				<item id="7460" chance="2500"/><!-- norse shield -->
 				<item id="2490" chance="2777"/><!-- dark helmet -->
 				<item id="2129" chance="1666"/><!-- wolf tooth chain -->
 				<item id="7618" chance="1666"/><!-- health potion -->

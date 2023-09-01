@@ -1,6 +1,5 @@
 function isInRange(position, fromPosition, toPosition)
-	return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z
-		and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
+	return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
 end
 
 function getDistanceBetween(fromPosition, toPosition)
@@ -14,7 +13,7 @@ function getDistanceBetween(fromPosition, toPosition)
 end
 
 function getDirectionTo(pos1, pos2)
-	local dir = SOUTH
+	local dir = NORTH
 	if(pos1.x > pos2.x) then
 		dir = WEST
 		if(pos1.y > pos2.y) then
@@ -29,17 +28,19 @@ function getDirectionTo(pos1, pos2)
 		elseif(pos1.y < pos2.y) then
 			dir = SOUTHEAST
 		end
-	elseif(pos1.y > pos2.y) then
-		dir = NORTH
-	elseif(pos1.y < pos2.y) then
-		dir = SOUTH
+	else
+		if(pos1.y > pos2.y) then
+			dir = NORTH
+		elseif(pos1.y < pos2.y) then
+			dir = SOUTH
+		end
 	end
 
 	return dir
 end
 
 function getCreatureLookPosition(cid)
-	return getPositionByDirection(getThingPosition(cid), getCreatureLookDirection(cid))
+	return getPosByDir(getThingPos(cid), getCreatureLookDirection(cid))
 end
 
 function getPositionByDirection(position, direction, size)
@@ -82,21 +83,4 @@ function getArea(position, x, y)
 	end
 
 	return t
-end
-
-function Position(x, y, z, stackpos)
-	local position = {x = 0, y = 0, z = 0}
-	if(isNumeric(x .. y .. z)) then
-		position = {x = x, y = y, z = z}
-		if(isNumeric(stackpos)) then
-			position.stackpos = stackpos
-		end
-	end
-
-	return position
-end
-
-function isValidPosition(position)
-	return (isNumeric(position.x .. position.y .. position.z) and position.x > 0
-		and position.y > 0 and position.z >= 0 and position.z <= 15)
 end

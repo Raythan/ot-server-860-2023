@@ -1,7 +1,6 @@
 local EMPTY_POTION = 7636
 
 local combat = createCombatObject()
-setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_HEALING)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
 setCombatParam(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
 setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
@@ -26,10 +25,8 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 
 	doAddCondition(cid, exhaust)
 	doCreatureSay(itemEx.uid, "Aaaah...", TALKTYPE_ORANGE_1)
+
 	doRemoveItem(item.uid, 1)
-      doPlayerAddItem(cid, EMPTY_POTION, 1)
-        pot_count = getPlayerItemCount(cid, EMPTY_POTION)
-        doPlayerRemoveItem(cid, EMPTY_POTION, pot_count)
-        doPlayerAddItem(cid, EMPTY_POTION, pot_count)
-        return TRUE
+	doPlayerAddItem(cid, potion.empty, 1)
+	return true
 end

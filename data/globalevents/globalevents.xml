@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
-	<!-- ChaitoSoft.com -->
-	<!--<globalevent name="save" interval="86000000" event="script" value="save.lua"/>-->
-	<globalevent name="GlobalSave" time="05:00" event="script" value="GlobalSave.lua"/>
-	<globalevent name="offtrain_add_minutes" interval="60000" event="script" value="offtrain_addMinutes.lua"/>
-	<globalevent name="clean" interval="86400000" event="script" value="clean.lua"/>
-	<globalevent name="info" interval="3600000" event="script" value="info.lua"/>
-	<globalevent name="infoo" interval="1800000" event="script" value="infoo.lua"/>
-	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
-	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
-	<globalevent name="raid" interval="20000" event="script" value="raid.lua"/>
-	<globalevent name="WoE" interval="30000" event="script" value="woe.lua"/>
-	<globalevent name="start_woe" interval="30000" event="script" value="start_woe.lua"/>
-	<globalevent name="shop" interval="30000" script="shop.lua"/>
-	<globalevent name="Guardias" interval="1000" event="script" value="guardias.lua"/>
-	<globalevent name="GlobalBattle" interval="60000" event="script" value="BattleGlobalEvents.lua"/>
+	<globalevent name="save" interval="900000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/>
+
+	<globalevent name="init" type="startup" event="script" value="init.lua"/>
+	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/>
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+
+	<!-- <globalevent name="timer_example" time="21:35:11" event="script" value="my_script.lua"/> -->
 </globalevents>

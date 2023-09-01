@@ -1,10 +1,8 @@
-function onUse(cid, words, param, channel)
-	param = 27
-	if(param == nil or param < 0 or param > CONST_ME_LAST) then
-		doPlayerSendCancel(cid, "Numeric param may not be lower than 0 and higher than " .. CONST_ME_LAST .. ".")
-		return TRUE
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+	if(item.uid ~= getPlayerSlotItem(cid, CONST_SLOT_HEAD).uid) then
+		return false
 	end
 
-	doSendMagicEffect(getCreaturePosition(cid), param)
-	return TRUE
+	doSendMagicEffect(getCreaturePosition(cid), CONST_ME_GIFT_WRAPS)
+	return true
 end

@@ -1,70 +1,18 @@
-function doPlayerSetSkills(cid, value)
-    for i = 0, 8 do
-        doPlayerSetRate(cid, i, value)
-    end
-end
-InitArenaScript = 0
-arena_room_max_time = 240
-arenaKickPosition = {x=32222, y=31080, z=6}
-arena_monsters = {}
-arena_monsters[42300] = 'frostfur' -- first monster from 1 arena
-arena_monsters[42301] = 'bloodpaw'
-arena_monsters[42302] = 'bovinus'
-arena_monsters[42303] = 'achad'
-arena_monsters[42304] = 'colerian the barbarian'
-arena_monsters[42305] = 'the hairy one'
-arena_monsters[42306] = 'axeitus headbanger'
-arena_monsters[42307] = 'rocky'
-arena_monsters[42308] = 'cursed gladiator'
-arena_monsters[42309] = 'orcus the cruel'
-arena_monsters[42310] = 'avalanche' -- first monster from 2 arena
-arena_monsters[42311] = 'kreebosh the exile'
-arena_monsters[42312] = 'the dark dancer'
-arena_monsters[42313] = 'the hag'
-arena_monsters[42314] = 'slim'
-arena_monsters[42315] = 'grimgor guteater'
-arena_monsters[42316] = 'drasilla'
-arena_monsters[42317] = 'spirit of earth'
-arena_monsters[42318] = 'spirit of water'
-arena_monsters[42319] = 'spirit of fire'
-arena_monsters[42320] = 'webster' -- first monster from 3 arena
-arena_monsters[42321] = 'darakan the executioner'
-arena_monsters[42322] = 'norgle glacierbeard'
-arena_monsters[42323] = 'the pit lord'
-arena_monsters[42324] = 'svoren the mad'
-arena_monsters[42325] = 'the masked marauder'
-arena_monsters[42326] = 'gnorre chyllson'
-arena_monsters[42327] = "fallen mooh'tah master ghar"
-arena_monsters[42328] = 'deathbringer'
-arena_monsters[42329] = 'the obliverator'
-
-function getArenaMonsterIdByName(name)
-    name = string.lower(tostring(name))
-    for i = 42300, 42329 do
-        if tostring(arena_monsters[i]) == name then
-            return i
-        end
-    end
-    return 0
-end
-
-function doPlayerGiveItem(cid, itemid, amount, subType)
-	local item = 0
-	if(isItemStackable(itemid)) then
-		item = doCreateItemEx(itemid, amount)
-		if(doPlayerAddItemEx(cid, item, true) ~= RETURNVALUE_NOERROR) then
-			return false
+function isInArray(array, value, caseSensitive)
+	if(caseSensitive == nil or caseSensitive == false) and type(value) == "string" then
+		local lowerValue = value:lower()
+		for _, _value in ipairs(array) do
+			if type(_value) == "string" and lowerValue == _value:lower() then
+				return true
+			end
 		end
 	else
-		for i = 1, amount do
-			item = doCreateItemEx(itemid, subType)
-			if(doPlayerAddItemEx(cid, item, true) ~= RETURNVALUE_NOERROR) then
-				return false
-			end
+		for _, _value in ipairs(array) do
+			if (value == _value) then return true end
 		end
 	end
 
-	return true
+	return false
 end
 
 function doPlayerGiveItem(cid, itemid, amount, subType)
@@ -187,7 +135,7 @@ end
 function doNumberFormat(i)
 	local str, found = string.gsub(i, "(%d)(%d%d%d)$", "%1,%2", 1), 0
 	repeat
-		str, found = string.gsub(str, "(%d)(%d%d%d),", "%1,%2,", 1)
+		str, found = string.gsub(ret, "(%d)(%d%d%d),", "%1,%2,", 1)
 	until found == 0
 	return str
 end
@@ -246,7 +194,7 @@ end
 
 function doMutePlayer(cid, time)
 	local condition = createConditionObject(CONDITION_MUTED)
-	setConditionParam(condition, CONDITION_PARAM_TICKS, time == -1 and time or time * 1000)
+	setConditionParam(condition, CONDITION_PARAM_TICKS, time * 1000)
 	return doAddCondition(cid, condition)
 end
 
@@ -377,8 +325,9 @@ function doSummonCreature(name, pos, displayError)
 end
 
 function getOnlinePlayers()
+	local tmp = getPlayersOnline()
 	local players = {}
-	for i, cid in ipairs(getPlayersOnline()) do
+	for i, cid in ipairs(tmp) do
 		table.insert(players, getCreatureName(cid))
 	end
 
@@ -395,7 +344,11 @@ function isPlayer(cid)
 end
 
 function isPlayerGhost(cid)
-	return isPlayer(cid) and (getCreatureCondition(cid, CONDITION_GAMEMASTER, GAMEMASTER_INVISIBLE) or getPlayerFlagValue(cid, PLAYERFLAG_CANNOTBESEEN))
+	if(not isPlayer(cid)) then
+		return false
+	end
+
+	return getCreatureCondition(cid, CONDITION_GAMEMASTER, GAMEMASTER_INVISIBLE) or getPlayerFlagValue(cid, PLAYERFLAG_CANNOTBESEEN)
 end
 
 function isMonster(cid)
@@ -415,7 +368,7 @@ function doPlayerSetMagicRate(cid, value)
 end
 
 function doPlayerAddLevel(cid, amount, round)
-	local experience, level, amount = 0, getPlayerLevel(cid), amount or 1
+	local experience, level = 0, getPlayerLevel(cid)
 	if(amount > 0) then
 		experience = getExperienceForLevel(level + amount) - (round and getPlayerExperience(cid) or getExperienceForLevel(level))
 	else
@@ -427,25 +380,19 @@ end
 
 function doPlayerAddMagLevel(cid, amount)
 	for i = 1, amount do
-		doPlayerAddSpentMana(cid, getPlayerRequiredMana(cid, getPlayerMagLevel(cid, true) + 1) - getPlayerSpentMana(cid), false)
+		doPlayerAddSpentMana(cid, (getPlayerRequiredMana(cid, getPlayerMagLevel(cid, true) + 1) - getPlayerSpentMana(cid)) / getConfigInfo('rateMagic'))
 	end
-
 	return true
 end
 
 function doPlayerAddSkill(cid, skill, amount, round)
-	local amount = amount or 1
 	if(skill == SKILL__LEVEL) then
 		return doPlayerAddLevel(cid, amount, round)
 	elseif(skill == SKILL__MAGLEVEL) then
 		return doPlayerAddMagLevel(cid, amount)
 	end
 
-	for i = 1, amount do
-		doPlayerAddSkillTry(cid, skill, getPlayerRequiredSkillTries(cid, skill, getPlayerSkillLevel(cid, skill) + 1) - getPlayerSkillTries(cid, skill), false)
-	end
-
-	return true
+	return doPlayerAddSkillTry(cid, skill, (getPlayerRequiredSkillTries(cid, skill, getPlayerSkillLevel(cid, skill) + 1) - getPlayerSkillTries(cid, skill)) / getConfigInfo('rateSkill'))
 end
 
 function getPartyLeader(cid)
@@ -482,7 +429,8 @@ function doBroadcastMessage(text, class)
 		return false
 	end
 
-	for _, pid in ipairs(getPlayersOnline()) do
+	local players = getPlayersOnline()
+	for _, pid in ipairs(players) do
 		doPlayerSendTextMessage(pid, class, text)
 	end
 
@@ -507,7 +455,8 @@ function doPlayerBroadcastMessage(cid, text, class, checkFlag, ghost)
 		return false
 	end
 
-	for _, pid in ipairs(getPlayersOnline()) do
+	local players = getPlayersOnline()
+	for _, pid in ipairs(players) do
 		doCreatureSay(cid, text, class, ghost, pid)
 	end
 
@@ -595,10 +544,6 @@ function doSetItemText(uid, text, writer, date)
 	end
 
 	return true
-end
-
-function doItemSetActionId(uid, aid)
-	return doItemSetAttribute(uid, "aid", aid)
 end
 
 function getFluidSourceType(itemid)
@@ -756,9 +701,4 @@ end
 function choose(...)
 	local arg = {...}
 	return arg[math.random(1, table.maxn(arg))]
-end
-
-function isSummon(cid)
-	return getCreatureMaster(cid) ~= nil
-end
-
+end 

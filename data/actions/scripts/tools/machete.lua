@@ -1,6 +1,3 @@
-local JUNGLE_GRASS = {2782, 3985}
-local SPIDER_WEB = {7538, 7539}
-
 function onUse(cid, item, fromPosition, itemEx, toPosition)
 	if(isInArray(JUNGLE_GRASS, itemEx.itemid)) then
 		doTransformItem(itemEx.uid, itemEx.itemid - 1)
@@ -14,13 +11,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return true
 	end
 
-	if(itemEx.itemid == 1499) then
-		doSendMagicEffect(toPosition, CONST_ME_POFF)
-		doRemoveItem(itemEx.uid)
-		return true
-	end
-	
-	if(itemEx.itemid == 2101) then
+	if(isInArray(WILD_GROWTH, itemEx.itemid)) then
 		doSendMagicEffect(toPosition, CONST_ME_POFF)
 		doRemoveItem(itemEx.uid)
 		return true

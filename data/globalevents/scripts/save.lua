@@ -1,5 +1,5 @@
 local config = {
-	broadcast = {30},
+	broadcast = {120, 30},
 	shallow = "no",
 	delay = 120,
 	events = 30
@@ -27,7 +27,7 @@ local function executeSave(seconds)
 	end
 end
 
-function onThink(interval, lastExecution, thinkInterval)
+function onThink(interval)
 	if(table.maxn(config.broadcast) == 0) then
 		doSaveServer(config.shallow)
 	else

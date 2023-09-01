@@ -7,6 +7,10 @@ local questsExperience = {
 }
 
 function onUse(cid, item, fromPosition, itemEx, toPosition)
+	if(getPlayerCustomFlagValue(cid, PLAYERCUSTOMFLAG_GAMEMASTERPRIVILEGES)) then
+		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF, cid)
+		return true
+	end
 
 	local storage = specialQuests[item.actionid]
 	if(not storage) then

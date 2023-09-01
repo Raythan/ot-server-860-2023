@@ -1,5 +1,5 @@
 -- Advanced NPC System (Created by Jiddo),
--- Modified by Talaturen.
+-- Modified by TheForgottenServer Team.
 
 if(NpcHandler == nil) then
 	-- Constant talkdelay behaviors.
@@ -54,7 +54,6 @@ if(NpcHandler == nil) then
 	CALLBACK_PLAYER_CLOSECHANNEL	= 9
 	CALLBACK_ONBUY			= 10
 	CALLBACK_ONSELL			= 11
-	CALLBACK_ONTRADEREQUEST		= 20
 
 	-- Addidional module callback ids
 	CALLBACK_MODULE_INIT		= 12
@@ -71,8 +70,8 @@ if(NpcHandler == nil) then
 		keywordHandler = nil,
 		focuses = nil,
 		talkStart = nil,
-		idleTime = 90,
-		talkRadius = 4,
+		idleTime = 300,
+		talkRadius = 3,
 		talkDelayTime = 1, -- Seconds to delay outgoing messages.
 		queue = nil,
 		talkDelay = nil,
@@ -251,31 +250,29 @@ if(NpcHandler == nil) then
 		for i, module in pairs(self.modules) do
 			local tmpRet = true
 			if(id == CALLBACK_CREATURE_APPEAR and module.callbackOnCreatureAppear ~= nil) then
-				tmpRet = module:callbackOnCreatureAppear(unpack(arg))
+				tmpRet = module:callbackOnCreatureAppear(...)
 			elseif(id == CALLBACK_CREATURE_DISAPPEAR and module.callbackOnCreatureDisappear ~= nil) then
-				tmpRet = module:callbackOnCreatureDisappear(unpack(arg))
+				tmpRet = module:callbackOnCreatureDisappear(...)
 			elseif(id == CALLBACK_CREATURE_SAY and module.callbackOnCreatureSay ~= nil) then
-				tmpRet = module:callbackOnCreatureSay(unpack(arg))
+				tmpRet = module:callbackOnCreatureSay(...)
 			elseif(id == CALLBACK_PLAYER_ENDTRADE and module.callbackOnPlayerEndTrade ~= nil) then
-				tmpRet = module:callbackOnPlayerEndTrade(unpack(arg))
+				tmpRet = module:callbackOnPlayerEndTrade(...)
 			elseif(id == CALLBACK_PLAYER_CLOSECHANNEL and module.callbackOnPlayerCloseChannel ~= nil) then
-				tmpRet = module:callbackOnPlayerCloseChannel(unpack(arg))
+				tmpRet = module:callbackOnPlayerCloseChannel(...)
 			elseif(id == CALLBACK_ONBUY and module.callbackOnBuy ~= nil) then
-				tmpRet = module:callbackOnBuy(unpack(arg))
+				tmpRet = module:callbackOnBuy(...)
 			elseif(id == CALLBACK_ONSELL and module.callbackOnSell ~= nil) then
-				tmpRet = module:callbackOnSell(unpack(arg))
-			elseif(id == CALLBACK_ONTRADEREQUEST and module.callbackOnTradeRequest ~= nil) then
-				tmpRet = module:callbackOnTradeRequest(unpack(arg))
+				tmpRet = module:callbackOnSell(...)
 			elseif(id == CALLBACK_ONTHINK and module.callbackOnThink ~= nil) then
-				tmpRet = module:callbackOnThink(unpack(arg))
+				tmpRet = module:callbackOnThink(...)
 			elseif(id == CALLBACK_GREET and module.callbackOnGreet ~= nil) then
-				tmpRet = module:callbackOnGreet(unpack(arg))
+				tmpRet = module:callbackOnGreet(...)
 			elseif(id == CALLBACK_FAREWELL and module.callbackOnFarewell ~= nil) then
-				tmpRet = module:callbackOnFarewell(unpack(arg))
+				tmpRet = module:callbackOnFarewell(...)
 			elseif(id == CALLBACK_MESSAGE_DEFAULT and module.callbackOnMessageDefault ~= nil) then
-				tmpRet = module:callbackOnMessageDefault(unpack(arg))
+				tmpRet = module:callbackOnMessageDefault(...)
 			elseif(id == CALLBACK_MODULE_RESET and module.callbackOnModuleReset ~= nil) then
-				tmpRet = module:callbackOnModuleReset(unpack(arg))
+				tmpRet = module:callbackOnModuleReset(...)
 			end
 
 			if(not tmpRet) then
@@ -454,17 +451,6 @@ if(NpcHandler == nil) then
 				--
 			end
 		end
-	end
-
-	-- Handles onTradeRequest events. If you wish to handle this yourself, use the CALLBACK_ONTRADEREQUEST callback.
-	function NpcHandler:onTradeRequest(cid)
-		local callback = self:getCallback(CALLBACK_ONTRADEREQUEST)
-		if(callback == nil or callback(cid)) then
-			if(self:processModuleCallback(CALLBACK_ONTRADEREQUEST, cid)) then
-				return true
-			end
-		end
-		return false
 	end
 
 	-- Handles onThink events. If you wish to handle this yourself, please use the CALLBACK_ONTHINK callback.

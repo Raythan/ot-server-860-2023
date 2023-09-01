@@ -1,8 +1,11 @@
--- [( Script edited by: DoidinMapper for XTibia.com )] --
+local config = {
+	savePlayersOnAdvance = true
+}
+
 function onAdvance(cid, skill, oldLevel, newLevel)
-local config = {savePlayersOnAdvance = true}
-if(config.savePlayersOnAdvance) then
-doPlayerSave(cid, TRUE)
-end
-return TRUE
+	if(config.savePlayersOnAdvance) then
+		doPlayerSave(cid, true)
+	end
+
+	return true
 end

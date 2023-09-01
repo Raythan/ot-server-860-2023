@@ -5,7 +5,7 @@ exhaustion =
 			return false
 		end
 
-		return getPlayerStorageValue(cid, storage) >= os.time()
+		return getPlayerStorageValue(cid, storage) >= os.time(t)
 	end,
 
 	get = function (cid, storage)
@@ -15,7 +15,7 @@ exhaustion =
 
 		local exhaust = getPlayerStorageValue(cid, storage)
 		if(exhaust > 0) then
-			local left = exhaust - os.time()
+			local left = exhaust - os.time(t)
 			if(left >= 0) then
 				return left
 			end
@@ -25,7 +25,7 @@ exhaustion =
 	end,
 
 	set = function (cid, storage, time)
-		setPlayerStorageValue(cid, storage, os.time() + time)
+		setPlayerStorageValue(cid, storage, os.time(t) + time)
 	end,
 
 	make = function (cid, storage, time)

@@ -1,52 +1,9 @@
-function onStepIn(cid, item, pos)
-if isPlayer(cid) == TRUE then
-if (item.actionid == 4036) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Yalahar.")
-doPlayerSetTown(cid,1)
+function onStepIn(cid, item, position, fromPosition)
+	if(item.actionid > 30020 and item.actionid < 30100) then
+		local townId = (item.actionid - 30020)
+		doPlayerSetTown(cid, townId)
+		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You are the newest resident of " .. getTownName(townId) .. ".")
+	end
 
-elseif (item.actionid == 4037) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Carlin.")
-doPlayerSetTown(cid,2)
-
-elseif (item.actionid == 4038) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Ab'Dendriel.")
-doPlayerSetTown(cid,3)
-
-elseif (item.actionid == 4039) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Kazordoon.")
-doPlayerSetTown(cid,4)
-
-elseif (item.actionid == 4040) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Thais.")
-doPlayerSetTown(cid,5)
-
-elseif (item.actionid == 4041) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Venore.")
-doPlayerSetTown(cid,6)
-
-elseif (item.actionid == 4042) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Darashia.")
-doPlayerSetTown(cid,7)
-
-elseif (item.actionid == 4043) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Ankrahmun.")
-doPlayerSetTown(cid,8)
-
-elseif (item.actionid == 4044) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Edron.")
-doPlayerSetTown(cid,9)
-
-elseif (item.actionid == 4045) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Port Hope.")
-doPlayerSetTown(cid,10)
-
-elseif (item.actionid == 4046) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Liberty Bay.")
-doPlayerSetTown(cid,12)
-
-elseif (item.actionid == 4047) then
-doPlayerSendTextMessage(cid,24,"Now you are citizen of Svargrond.")
-doPlayerSetTown(cid,13)
-end
-end
+	return true
 end
