@@ -82,6 +82,7 @@
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml"/>
 	<monster name="Valkyrie" file="Amazons/valkyrie.xml"/>
+	<monster name="Valkyrie" file="Amazons/valkyrie.xml"/>
 
 	<!-- Annelids -->
 	<monster name="Carrion Worm" file="Annelids/carrion worm.xml"/>
@@ -292,6 +293,7 @@
 	<monster name="Frost Dragon Hatchling" file="Dragons/frost dragon hatchling.xml"/>
 	<monster name="Undead Dragon" file="Dragons/undead dragon.xml"/>
 	<monster name="Wyrm" file="Dragons/wyrm.xml"/>
+	<monster name="Ghastly Dragon" file="Dragons/ghastly dragon.xml"/>
 
 	<!-- Dwarves -->
 	<monster name="Dwarf Geomancer" file="Dwarves/dwarf geomancer.xml"/>
@@ -428,6 +430,23 @@
 	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
 	<monster name="Priestess" file="Necromancers/priestess.xml"/>
 
+	<!-- New Frontier -->
+	<monster name="Baron Brute" file="New Frontier/baron brute.xml"/>
+	<monster name="Coldheart" file="New Frontier/coldheart.xml"/>
+	<monster name="Doomhowl" file="New Frontier/doomhowl.xml"/>
+	<monster name="Dreadwing" file="New Frontier/dreadwing.xml"/>
+	<monster name="Fatality" file="New Frontier/fatality.xml"/>
+	<monster name="Haunter" file="New Frontier/haunter.xml"/>
+	<monster name="Incineron" file="New Frontier/incineron.xml"/>
+	<monster name="Menace" file="New Frontier/menace.xml"/>
+	<monster name="Rocko" file="New Frontier/rocko.xml"/>
+	<monster name="The Axeorcist" file="New Frontier/the axeorcist.xml"/>
+	<monster name="The Dreadorian" file="New Frontier/the dreadorian.xml"/>
+	<monster name="Tirecz" file="New Frontier/tirecz.xml"/>
+	<monster name="Tremorak" file="New Frontier/tremorak.xml"/>
+	<monster name="Target Dummy" file="New Frontier/Target Dummy.xml"/>
+	<monster name="Demon (Goblin)" file="New Frontier/goblin demon.xml"/>
+	
 	<!-- Orcs -->
 	<monster name="Orc Berserker" file="Orcs/orc berserker.xml"/>
 	<monster name="Orc Leader" file="Orcs/orc leader.xml"/>
