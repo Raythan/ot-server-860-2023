@@ -536,6 +536,7 @@
 	<!-- Reptiles -->
 	<monster name="Crocodile" file="Reptiles/crocodile.xml"/>
 	<monster name="Hydra" file="Reptiles/hydra.xml"/>
+	<monster name="Killer Caiman" file="Reptiles/Killer Caiman.xml"/>
 
 	<!-- Rifts -->
 	<monster name="Rift Worm" file="Rifts/rift worm.xml"/>

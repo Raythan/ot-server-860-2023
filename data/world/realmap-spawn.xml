@@ -21803,9 +21803,6 @@
   <spawn centerx="31912" centery="32232" centerz="7" radius="5">
     <monster name="Hydra" x="-1" y="-2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="32190" centery="32232" centerz="7" radius="3">
-    <monster name="Bazir" x="0" y="0" z="7" spawntime="10"/>
-  </spawn>
   <spawn centerx="32584" centery="32232" centerz="7" radius="1">
     <monster name="Seagull" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
