@@ -56,7 +56,7 @@
 <voice sentence="Hissss!"/>
 </voices>
 <script> 
-	<event name="monster2"/> 
+	<event name="deathNewFrontier"/> 
 	<event name="inquisitionPortals"/> 
 </script>
 </monster>

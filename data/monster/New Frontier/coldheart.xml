@@ -32,6 +32,6 @@
 		<immunity fire="1"/>
 	</immunities>
 		<script> 
-	<event name="monster2"/> 
+	<event name="deathNewFrontier"/> 
     </script>
 </monster>

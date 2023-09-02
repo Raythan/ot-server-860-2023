@@ -43,6 +43,6 @@
 		<voice sentence="Projeto Mind!"/>
 	</voices>
 	<script> 
-	<event name="monster2"/> 
+	<event name="deathNewFrontier"/> 
     </script>
 </monster>

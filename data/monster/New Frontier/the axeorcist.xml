@@ -34,7 +34,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<script> 
-	<event name="monster2"/> 
+	<event name="deathNewFrontier"/> 
     </script>
 	<voices interval="5000" chance="10">
 		<voice sentence="FIGHT!" yell="1"/>

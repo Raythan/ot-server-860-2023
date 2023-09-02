@@ -54,6 +54,6 @@
 		<voice sentence="STOMP STOMP!"/>
 	</voices>
 	<script> 
-	<event name="monster2"/> 
+	<event name="deathNewFrontier"/> 
     </script>
 </monster>

@@ -13,4 +13,6 @@
 	<event type="moveitem" name="MoveItem" event="script" value="houseprotect.lua"/>
 
 	<event type="extendedopcode" name="ExtendedOpcode" event="script" value="extendedopcode.lua"/>
+	<!-- New Frontier Event -->
+	<event type="death" name="deathNewFrontier" event="script" value="deathNewFrontier.lua"/>
 </creaturescripts>
