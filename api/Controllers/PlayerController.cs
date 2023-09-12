@@ -35,10 +35,158 @@ public class PlayerController : BaseController
             throw new CustomException("this name is already in use");
 
         await Insert(@"
-            INSERT INTO `players`
-                (`name`, `vocation`, `account_id`)
-            VALUES
-                (@name, @vocation, @account_id) ",
+            INSERT INTO
+				`players`
+				(`name`
+				, `world_id`
+				, `group_id`
+				, `account_id`
+				, `level`
+				, `vocation`
+				, `health`
+				, `healthmax`
+				, `experience`
+				, `lookbody`
+				, `lookfeet`
+				, `lookhead`
+				, `looklegs`
+				, `looktype`
+				, `lookaddons`
+				, `lookmount`
+				, `maglevel`
+				, `mana`
+				, `manamax`
+				, `manaspent`
+				, `soul`
+				, `town_id`
+				, `posx`
+				, `posy`
+				, `posz`
+				, `conditions`
+				, `cap`
+				, `sex`
+				, `lastlogin`
+				, `lastip`
+				, `save`
+				, `skull`
+				, `skulltime`
+				, `rank_id`
+				, `guildnick`
+				, `lastlogout`
+				, `blessings`
+				, `pvp_blessing`
+				, `balance`
+				, `stamina`
+				, `direction`
+				, `loss_experience`
+				, `loss_mana`
+				, `loss_skills`
+				, `loss_containers`
+				, `loss_items`
+				, `premend`
+				, `online`
+				, `marriage`
+				, `promotion`
+				, `deleted`
+				, `description`
+				, `offlinetraining_time`
+				, `offlinetraining_skill`
+				, `created`
+				, `nick_verify`
+				, `old_name`
+				, `hide_char`
+				, `worldtransfer`
+				, `comment`
+				, `show_outfit`
+				, `show_eq`
+				, `show_bars`
+				, `show_skills`
+				, `show_quests`
+				, `stars`
+				, `ip`
+				, `cast`
+				, `castViewers`
+				, `castDescription`
+				, `broadcasting`
+				, `viewers`
+				, `rep`)
+			SELECT 
+				@name
+				, `world_id`
+				, `group_id`
+				, @account_id
+				, `level`
+				, `vocation`
+				, `health`
+				, `healthmax`
+				, `experience`
+				, `lookbody`
+				, `lookfeet`
+				, `lookhead`
+				, `looklegs`
+				, `looktype`
+				, `lookaddons`
+				, `lookmount`
+				, `maglevel`
+				, `mana`
+				, `manamax`
+				, `manaspent`
+				, `soul`
+				, `town_id`
+				, `posx`
+				, `posy`
+				, `posz`
+				, `conditions`
+				, `cap`
+				, `sex`
+				, `lastlogin`
+				, `lastip`
+				, `save`
+				, `skull`
+				, `skulltime`
+				, `rank_id`
+				, `guildnick`
+				, `lastlogout`
+				, `blessings`
+				, `pvp_blessing`
+				, `balance`
+				, `stamina`
+				, `direction`
+				, `loss_experience`
+				, `loss_mana`
+				, `loss_skills`
+				, `loss_containers`
+				, `loss_items`
+				, `premend`
+				, `online`
+				, `marriage`
+				, `promotion`
+				, 0
+				, `description`
+				, `offlinetraining_time`
+				, `offlinetraining_skill`
+				, (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
+				, `nick_verify`
+				, `old_name`
+				, `hide_char`
+				, `worldtransfer`
+				, `comment`
+				, `show_outfit`
+				, `show_eq`
+				, `show_bars`
+				, `show_skills`
+				, `show_quests`
+				, `stars`
+				, `ip`
+				, `cast`
+				, `castViewers`
+				, `castDescription`
+				, `broadcasting`
+				, `viewers`
+				, `rep`
+			FROM `players`
+			WHERE `vocation` = @vocation
+				AND `account_id` = 1",
             new()
             {
                 new("@vocation", player.vocation),
