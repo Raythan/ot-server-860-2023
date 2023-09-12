@@ -1,5 +1,8 @@
 ﻿using api.Interfaces;
 using MySql.Data.MySqlClient;
+using System.Data.Common;
+using System.Data;
+using System.Dynamic;
 using System.Transactions;
 
 namespace api.DBContext;
@@ -24,7 +27,7 @@ public class DBConnect : IDBConnect
 
     //Update statement
     public void Update(string query)
-    {   
+    {
     }
 
     //Delete statement
@@ -33,9 +36,32 @@ public class DBConnect : IDBConnect
     }
 
     //Select statement
-    public List<string>[]? Select(string query)
+    public async Task<List<dynamic>> Select(MySqlConnection conn, string query, List<DBParameters> dBParameters, dynamic entity)
     {
-        return null;
+        MySqlCommand cmd = new(query, conn);
+        dBParameters.ForEach(f => cmd.Parameters.AddWithValue(f.Key, f.Value));
+
+        var reader = await cmd.ExecuteReaderAsync();
+        dynamic fields = entity.GetType().GetProperties();
+        List<dynamic> list = new();
+
+        while (await reader.ReadAsync())
+        {
+            var item = new ExpandoObject() as IDictionary<string, object>;
+
+            foreach (var field in fields)
+            {
+                try
+                {
+                    item[field.Name] = reader[field.Name];
+                }
+                catch { }
+            }
+
+            list.Add(item);
+        }
+
+        return list;
     }
 
     public async Task<bool> ScalarAsync(MySqlConnection conn, string query, List<DBParameters> dBParameters)

@@ -26,8 +26,8 @@ public class ErrorHandlerMiddleware
             response.StatusCode = error switch
             {
                 CustomException => (int)HttpStatusCode.BadRequest,
-                KeyNotFoundException => (int)HttpStatusCode.NotFound,// not found error
-                _ => (int)HttpStatusCode.InternalServerError,// unhandled error
+                KeyNotFoundException => (int)HttpStatusCode.NotFound,
+                _ => (int)HttpStatusCode.InternalServerError,
             };
 
             var result = JsonSerializer.Serialize(new { message = error?.Message });

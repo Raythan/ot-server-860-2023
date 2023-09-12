@@ -1,5 +1,6 @@
 ﻿using api.Models;
 using System.Net;
+using System.Security.Claims;
 using System.Text.Json;
 
 namespace api.Middlewares;
@@ -17,6 +18,14 @@ public class RequesterVerifierMiddleware
     {
         // check if request can be done
         // avoid flood
-        await _next(context);
+        var identity = context.User.Identity as ClaimsIdentity;
+        if (identity != null)
+        {
+
+            await _next(context);
+            return;
+        }
+
+        throw new CustomException("request not identifiable");
     }
 }

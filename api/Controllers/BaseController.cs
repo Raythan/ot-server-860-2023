@@ -1,42 +1,56 @@
 ﻿using api.DBContext;
 using api.Interfaces;
+using api.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using MySql.Data.MySqlClient;
-using System.Transactions;
+using System.Security.Claims;
 
 namespace api.Controllers;
 
-public class BaseController : ControllerBase
+public class BaseController : Controller
 {
     private readonly IDBConnect _dBConnect;
     protected MySqlTransaction _transaction;
-    private MySqlConnection conn;
+    private MySqlConnection _conn;
+    protected Account _account;
 
     public BaseController(IDBConnect dBConnect)
     {
         _dBConnect = dBConnect;
+        _account = new();
     }
 
     protected async Task<int> Insert(string query, List<DBParameters> dBParameters)
     {
-        conn ??= new MySqlConnection(_dBConnect.connectionString);
-        
-        if (conn.State != System.Data.ConnectionState.Open)
-            await conn.OpenAsync();
+        _conn ??= new MySqlConnection(_dBConnect.connectionString);
 
-        _transaction = await conn.BeginTransactionAsync();
+        if (_conn.State != System.Data.ConnectionState.Open)
+            await _conn.OpenAsync();
 
-        return await _dBConnect.InsertAsync(conn, query, dBParameters, _transaction);
+        _transaction = await _conn.BeginTransactionAsync();
+
+        return await _dBConnect.InsertAsync(_conn, query, dBParameters, _transaction);
     }
 
     protected async Task<bool> Scalar(string query, List<DBParameters> dBParameters)
     {
-        conn ??= new MySqlConnection(_dBConnect.connectionString);
-        
+        _conn ??= new MySqlConnection(_dBConnect.connectionString);
+
+        if (_conn.State != System.Data.ConnectionState.Open)
+            await _conn.OpenAsync();
+
+        return await _dBConnect.ScalarAsync(_conn, query, dBParameters);
+    }
+
+    protected async Task<List<dynamic>> Select(string query, List<DBParameters> dBParameters, dynamic entity)
+    {
+        using var conn = new MySqlConnection(_dBConnect.connectionString);
+
         if (conn.State != System.Data.ConnectionState.Open)
             await conn.OpenAsync();
 
-        return await _dBConnect.ScalarAsync(conn, query, dBParameters);
+        return await _dBConnect.Select(conn, query, dBParameters, entity);
     }
 
     protected async Task CommitAsync()
@@ -49,7 +63,7 @@ public class BaseController : ControllerBase
 
     protected async Task RollbackAsync()
     {
-        if(_transaction != null)
+        if (_transaction != null)
             await _transaction.RollbackAsync();
 
         await CloseAsync();
@@ -57,7 +71,28 @@ public class BaseController : ControllerBase
 
     private async Task CloseAsync()
     {
-        if (conn != null && conn.State != System.Data.ConnectionState.Closed)
-            await conn.CloseAsync();
+        if (_conn != null && _conn.State != System.Data.ConnectionState.Closed)
+            await _conn.CloseAsync();
     }
+
+    public override void OnActionExecuting(ActionExecutingContext context)
+        => GetAccountData();
+
+    private void GetAccountData()
+    {
+
+        if (HttpContext.User.Identity is ClaimsIdentity identity)
+        {
+            if (identity.Claims.Any())
+                _account = new()
+                {
+                    id = Convert.ToInt32(identity.FindFirst("account_id").Value),
+                    name = identity.FindFirst("name").Value,
+                    password = identity.FindFirst("password").Value,
+                    IsAuthenticated = true
+                };
+        }
+    }
+
+    protected bool IsAuthenticated() => _account.IsAuthenticated;
 }
