@@ -36,9 +36,31 @@ public class AccountController : BaseController
             throw new CustomException("account already in use");
 
         await Insert(@"INSERT INTO `accounts`
-                (`name`, `password`, `email`)
+                (`name`
+                , `password`
+                , `email`
+                , `page_lastday`
+                , `email_new`
+                , `email_new_time`
+                , `created`
+                , `rlname`
+                , `location`
+                , `vote`
+                , `flag`
+                )
             VALUES
-                (@name, SHA1(@password), @email) ",
+                (@name
+                , SHA1(@password)
+                , @email
+                , (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
+                , ''
+                , 0
+                , (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
+                , ''
+                , ''
+                , 0
+                , ''
+                )",
             new()
             {
                 new("@email", account.email),

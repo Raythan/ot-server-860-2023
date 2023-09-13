@@ -21,8 +21,8 @@
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
 	<event type="death" name="PythiusDead" script="pythius_the_rotten.lua" />
 	<event type="death" name="monster2" event="script" value="monster2.lua"/>
-	<event type="kill" name="KillTask" event="script" value="kill_task.lua"/>
-	<event type="look" name="LookTask" event="script" value="look_task.lua"/>
+	<!-- <event type="kill" name="KillTask" event="script" value="kill_task.lua"/> -->
+	<!-- <event type="look" name="LookTask" event="script" value="look_task.lua"/> -->
 	
 	<event type="extendedopcode" name="ExtendedOpcode" event="script" value="extendedopcode.lua"/>
 	<!-- New Frontier Event -->
