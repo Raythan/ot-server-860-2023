@@ -28,7 +28,7 @@ public class AuthenticationController : BaseController
     [Route("{name}/{password}")]
     public async Task<IActionResult> Login(string name, string password)
     {
-        var t = await base.Select(@"
+        var t = await Select(@"
             SELECT `id`, `name`, `password`, `email`
             FROM `accounts`
             WHERE `name` = @name
@@ -40,7 +40,7 @@ public class AuthenticationController : BaseController
         },
         new Account());
 
-        if (t.Any())
+        if (t.Any() && !name.Equals("1"))
         {
             var data = (IDictionary<string, object>)t[0];
             var tokenDescriptor = new SecurityTokenDescriptor

@@ -39,27 +39,12 @@ public class AccountController : BaseController
                 (`name`
                 , `password`
                 , `email`
-                , `page_lastday`
-                , `email_new`
-                , `email_new_time`
-                , `created`
-                , `rlname`
-                , `location`
-                , `vote`
-                , `flag`
                 )
             VALUES
                 (@name
                 , SHA1(@password)
                 , @email
-                , (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
-                , ''
-                , 0
-                , (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
-                , ''
-                , ''
-                , 0
-                , ''
+                --, (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
                 )",
             new()
             {

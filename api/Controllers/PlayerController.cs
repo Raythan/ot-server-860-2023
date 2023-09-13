@@ -35,8 +35,8 @@ public class PlayerController : BaseController
             throw new CustomException("name already in use");
 
         await Insert(@"
-            INSERT INTO `players`
-				(`name`
+            INSERT INTO `players` (
+				`name`
 				, `world_id`
 				, `group_id`
 				, `account_id`
@@ -51,7 +51,6 @@ public class PlayerController : BaseController
 				, `looklegs`
 				, `looktype`
 				, `lookaddons`
-				, `lookmount`
 				, `maglevel`
 				, `mana`
 				, `manamax`
@@ -73,7 +72,6 @@ public class PlayerController : BaseController
 				, `guildnick`
 				, `lastlogout`
 				, `blessings`
-				, `pvp_blessing`
 				, `balance`
 				, `stamina`
 				, `direction`
@@ -87,29 +85,8 @@ public class PlayerController : BaseController
 				, `marriage`
 				, `promotion`
 				, `deleted`
-				, `description`
-				, `offlinetraining_time`
-				, `offlinetraining_skill`
-				, `created`
-				, `nick_verify`
-				, `old_name`
-				, `hide_char`
-				, `worldtransfer`
-				, `comment`
-				, `show_outfit`
-				, `show_eq`
-				, `show_bars`
-				, `show_skills`
-				, `show_quests`
-				, `stars`
-				, `ip`
-				, `cast`
-				, `castViewers`
-				, `castDescription`
-				, `broadcasting`
-				, `viewers`
-				, `rep`)
-			SELECT 
+				, `description`)
+			SELECT
 				@name
 				, `world_id`
 				, `group_id`
@@ -125,7 +102,6 @@ public class PlayerController : BaseController
 				, `looklegs`
 				, `looktype`
 				, `lookaddons`
-				, `lookmount`
 				, `maglevel`
 				, `mana`
 				, `manamax`
@@ -147,7 +123,6 @@ public class PlayerController : BaseController
 				, `guildnick`
 				, `lastlogout`
 				, `blessings`
-				, `pvp_blessing`
 				, `balance`
 				, `stamina`
 				, `direction`
@@ -160,32 +135,11 @@ public class PlayerController : BaseController
 				, `online`
 				, `marriage`
 				, `promotion`
-				, 0
+				, `deleted`
 				, `description`
-				, `offlinetraining_time`
-				, `offlinetraining_skill`
-				, (SELECT UNIX_TIMESTAMP(CURRENT_TIMESTAMP))
-				, `nick_verify`
-				, `old_name`
-				, `hide_char`
-				, `worldtransfer`
-				, `comment`
-				, `show_outfit`
-				, `show_eq`
-				, `show_bars`
-				, `show_skills`
-				, `show_quests`
-				, `stars`
-				, `ip`
-				, `cast`
-				, `castViewers`
-				, `castDescription`
-				, `broadcasting`
-				, `viewers`
-				, `rep`
 			FROM `players`
 			WHERE `vocation` = @vocation
-				AND `account_id` = 1",
+				AND `account_id` = 1 ",
             new()
             {
                 new("@vocation", player.vocation),
