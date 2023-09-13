@@ -21,7 +21,7 @@ public class PlayerController : BaseController
             player.vocation < 1 ||
             player.vocation > 4 ||
             !IsAuthenticated())
-            throw new CustomException("there is some invalid value");
+            throw new CustomException("invalid parameters");
 
         if (await Scalar(@"
             SELECT
@@ -32,11 +32,10 @@ public class PlayerController : BaseController
             {
                 new("@name", player.name)
             }))
-            throw new CustomException("this name is already in use");
+            throw new CustomException("name already in use");
 
         await Insert(@"
-            INSERT INTO
-				`players`
+            INSERT INTO `players`
 				(`name`
 				, `world_id`
 				, `group_id`
@@ -195,7 +194,6 @@ public class PlayerController : BaseController
             });
 
         await CommitAsync();
-
         return Ok("new player inserted");
     }
 }

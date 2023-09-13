@@ -4,6 +4,7 @@ using api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using MySql.Data.MySqlClient;
+using System.Numerics;
 using System.Security.Claims;
 
 namespace api.Controllers;
@@ -76,21 +77,42 @@ public class BaseController : Controller
     }
 
     public override void OnActionExecuting(ActionExecutingContext context)
-        => GetAccountData();
+        => Task.FromResult(() => GetAccountData());
 
-    private void GetAccountData()
+    private async Task GetAccountData()
     {
-
         if (HttpContext.User.Identity is ClaimsIdentity identity)
         {
             if (identity.Claims.Any())
+            {
+                int id = Convert.ToInt32(identity.FindFirst("account_id").Value);
+                string password = identity.FindFirst("password").Value;
+                string name = identity.FindFirst("name").Value;
+
+                if (!await Scalar(@"
+                    SELECT
+                        COUNT(*)
+                    FROM
+                        `players`
+                    WHERE
+                        `name` = @name
+                        AND `password` = @password
+                        AND `account_id` = @account_id", new()
+                {
+                    new("@name", name),
+                    new("@password", password),
+                    new("@account_id", id)
+                }))
+                    throw new CustomException("invalid token");
+
                 _account = new()
                 {
-                    id = Convert.ToInt32(identity.FindFirst("account_id").Value),
-                    name = identity.FindFirst("name").Value,
-                    password = identity.FindFirst("password").Value,
+                    id = id,
+                    name = name,
+                    password = password,
                     IsAuthenticated = true
                 };
+            }
         }
     }
 
