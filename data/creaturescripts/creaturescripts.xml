@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<!-- <event type="advance" name="UpLevel" event="script" value="uplevel.lua"/> -->
+	<event type="moveitem" name="MoveItem" event="script" value="houseprotect.lua"/>
 
+	<event type="kill" name="PlayerKill" event="script" value="arenakill.lua"/>
+	<event type="death" name="inquisitionPortals" event="script" value="inquisitionPortals.lua"/>
+	<event type="death" name="PlayerDeath" event="script" value="playerdeath.lua"/>
+	<event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/>
+	<event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/> 
+	<event type="death" name="Azerus" event="script" value="azerus.lua"/>  
+	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+	<event type="logout" name="LogoutSave" event="script" value="save.lua"/>
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
@@ -9,9 +19,11 @@
 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
-
-	<event type="moveitem" name="MoveItem" event="script" value="houseprotect.lua"/>
-
+	<event type="death" name="PythiusDead" script="pythius_the_rotten.lua" />
+	<event type="death" name="monster2" event="script" value="monster2.lua"/>
+	<event type="kill" name="KillTask" event="script" value="kill_task.lua"/>
+	<event type="look" name="LookTask" event="script" value="look_task.lua"/>
+	
 	<event type="extendedopcode" name="ExtendedOpcode" event="script" value="extendedopcode.lua"/>
 	<!-- New Frontier Event -->
 	<event type="death" name="deathNewFrontier" event="script" value="deathNewFrontier.lua"/>
