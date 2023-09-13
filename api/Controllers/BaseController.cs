@@ -77,7 +77,7 @@ public class BaseController : Controller
     }
 
     public override void OnActionExecuting(ActionExecutingContext context)
-        => Task.FromResult(() => GetAccountData());
+        => GetAccountData().GetAwaiter().GetResult();
 
     private async Task GetAccountData()
     {
@@ -93,11 +93,11 @@ public class BaseController : Controller
                     SELECT
                         COUNT(*)
                     FROM
-                        `players`
+                        `accounts`
                     WHERE
                         `name` = @name
-                        AND `password` = @password
-                        AND `account_id` = @account_id", new()
+                        AND `password` = SHA1(@password)
+                        AND `id` = @account_id", new()
                 {
                     new("@name", name),
                     new("@password", password),

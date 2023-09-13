@@ -39,7 +39,6 @@ C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.d
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\MySql.Data.dll
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Github\ot-server-860-2023\api\bin\Debug\net7.0\System.Security.Permissions.dll

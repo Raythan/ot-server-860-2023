@@ -25,15 +25,20 @@ public class AccountController : BaseController
         string.IsNullOrEmpty(account.password) ||
         !int.TryParse(account.name, out int _) ||
         !account.email.IsEmail())
-            throw new CustomException("there is some invalid value");
+            throw new CustomException("invalid parameters");
 
-        if(await Scalar("SELECT count(*) FROM `accounts` WHERE `name` = @name", new()
+        if (await Scalar(@"SELECT count(*)
+            FROM `accounts`
+            WHERE `name` = @name", new()
             {
                 new("@name", account.name)
             }))
-            throw new CustomException("that account is already in use");
+            throw new CustomException("account already in use");
 
-        await Insert("INSERT INTO `accounts` (`name`, `password`, `email`) VALUES (@name, SHA1(@password), @email) ",
+        await Insert(@"INSERT INTO `accounts`
+                (`name`, `password`, `email`)
+            VALUES
+                (@name, SHA1(@password), @email) ",
             new()
             {
                 new("@email", account.email),
@@ -42,6 +47,6 @@ public class AccountController : BaseController
             });
 
         await CommitAsync();
-        return Ok("new account inserted");
+        return Ok("new account created");
     }
 }
