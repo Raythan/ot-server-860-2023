@@ -27,6 +27,9 @@
 		</attack>
 	</attacks>
 	<defenses armor="17" defense="40">
+		<defense name="speed" interval="1000" chance="9" speedchange="1201" duration="3000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
 		<defense name="invisible" interval="1000" chance="9" duration="2000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -48,7 +51,6 @@
 		<item id="2148" countmax="20" chance="5000"/><!-- gold coin -->
 		<item id="2050" chance="22500"/><!-- torch -->
 		<item id="2148" countmax="14" chance="2750"/><!-- throwing star -->
-		<item id="7366" chance="15500"/><!-- viper star -->
 		<item id="2403" chance="7500"/><!-- knife -->
 		<item id="2404" chance="4750"/><!-- combat knife -->
 		<item id="1987" chance="100000"><!-- bag -->
