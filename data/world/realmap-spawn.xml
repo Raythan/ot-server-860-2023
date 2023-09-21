@@ -53321,23 +53321,67 @@
     <monster name="Phantasm" x="-1" y="3" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="411" centery="1395" centerz="12" radius="30">
+    <monster name="Phantasm" x="-20" y="-25" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="-17" y="-23" z="12" spawntime="60"/>
+    <monster name="Demon" x="-16" y="-21" z="12" spawntime="60"/>
+    <monster name="Demon" x="-14" y="-21" z="12" spawntime="60"/>
+    <monster name="Demon" x="-13" y="-21" z="12" spawntime="60"/>
     <monster name="Demon" x="-3" y="-21" z="12" spawntime="120"/>
+    <monster name="Demon" x="18" y="-21" z="12" spawntime="60"/>
+    <monster name="Demon" x="-14" y="-20" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="17" y="-20" z="12" spawntime="60"/>
+    <monster name="Demon" x="18" y="-20" z="12" spawntime="60"/>
     <monster name="Demon" x="9" y="-10" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-1" y="-7" z="12" spawntime="60"/>
     <monster name="Demon" x="7" y="-6" z="12" spawntime="120"/>
     <monster name="Phantasm" x="18" y="-6" z="12" spawntime="120"/>
+    <monster name="Demon" x="7" y="-5" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="8" y="-5" z="12" spawntime="60"/>
     <monster name="Phantasm" x="15" y="-5" z="12" spawntime="120"/>
+    <monster name="Demon" x="15" y="-4" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="17" y="-4" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="-2" y="-3" z="12" spawntime="60"/>
+    <monster name="Demon" x="2" y="-2" z="12" spawntime="60"/>
+    <monster name="Demon" x="2" y="-1" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="4" y="-1" z="12" spawntime="60"/>
     <monster name="Nightmare" x="16" y="-1" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-8" y="0" z="12" spawntime="60"/>
+    <monster name="Demon" x="2" y="0" z="12" spawntime="60"/>
     <monster name="Nightmare" x="13" y="0" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="16" y="0" z="12" spawntime="60"/>
+    <monster name="Demon" x="-10" y="1" z="12" spawntime="60"/>
     <monster name="Demon" x="8" y="1" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="9" y="1" z="12" spawntime="60"/>
+    <monster name="Demon" x="15" y="1" z="12" spawntime="60"/>
+    <monster name="Demon" x="17" y="1" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="-10" y="2" z="12" spawntime="60"/>
+    <monster name="Demon" x="-9" y="2" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="16" y="2" z="12" spawntime="60"/>
+    <monster name="Demon" x="18" y="2" z="12" spawntime="60"/>
     <monster name="Nightmare" x="14" y="3" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-12" y="4" z="12" spawntime="60"/>
+    <monster name="Demon" x="16" y="4" z="12" spawntime="60"/>
+    <monster name="Demon" x="-9" y="5" z="12" spawntime="60"/>
     <monster name="Demon" x="0" y="7" z="12" spawntime="120"/>
+    <monster name="Demon" x="19" y="8" z="12" spawntime="60"/>
+    <monster name="Demon" x="14" y="9" z="12" spawntime="60"/>
     <monster name="Demon" x="-2" y="10" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-6" y="11" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="-9" y="12" z="12" spawntime="60"/>
     <monster name="Phantasm" x="10" y="13" z="12" spawntime="120"/>
     <monster name="Phantasm" x="21" y="13" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-11" y="14" z="12" spawntime="60"/>
     <monster name="Phantasm" x="2" y="14" z="12" spawntime="120"/>
+    <monster name="Demon" x="-1" y="15" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="-4" y="16" z="12" spawntime="60"/>
+    <monster name="Phantasm" x="11" y="16" z="12" spawntime="60"/>
+    <monster name="Demon" x="7" y="17" z="12" spawntime="60"/>
     <monster name="Nightmare" x="9" y="17" z="12" spawntime="120"/>
     <monster name="Nightmare" x="8" y="18" z="12" spawntime="120"/>
+    <monster name="Phantasm" x="-5" y="19" z="12" spawntime="60"/>
+    <monster name="Demon" x="6" y="19" z="12" spawntime="60"/>
     <monster name="Phantasm" x="4" y="20" z="12" spawntime="120"/>
+    <monster name="Demon" x="-6" y="21" z="12" spawntime="60"/>
     <monster name="Nightmare" x="8" y="21" z="12" spawntime="120"/>
     <monster name="Phantasm" x="-9" y="23" z="12" spawntime="120"/>
     <monster name="Nightmare" x="-11" y="24" z="12" spawntime="120"/>
@@ -57054,6 +57098,7 @@
     <monster name="Spectre" x="-7" y="4" z="13" spawntime="120"/>
     <monster name="Hellfire Fighter" x="26" y="4" z="13" spawntime="120"/>
     <monster name="Phantasm" x="-40" y="8" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="-39" y="10" z="13" spawntime="60"/>
     <monster name="Diabolic Imp" x="-9" y="10" z="13" spawntime="120"/>
     <monster name="Diabolic Imp" x="-20" y="12" z="13" spawntime="120"/>
     <monster name="Plaguesmith" x="19" y="12" z="13" spawntime="120"/>
@@ -57065,28 +57110,137 @@
     <monster name="Spectre" x="11" y="21" z="13" spawntime="120"/>
   </spawn>
   <spawn centerx="412" centery="1399" centerz="13" radius="30">
+    <monster name="Phantasm" x="9" y="-30" z="13" spawntime="60"/>
+    <monster name="Demon" x="9" y="-29" z="13" spawntime="60"/>
+    <monster name="Demon" x="9" y="-28" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="-6" y="-27" z="13" spawntime="60"/>
+    <monster name="Demon" x="10" y="-26" z="13" spawntime="60"/>
+    <monster name="Demon" x="11" y="-26" z="13" spawntime="60"/>
+    <monster name="Demon" x="12" y="-26" z="13" spawntime="60"/>
+    <monster name="Demon" x="13" y="-26" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="11" y="-25" z="13" spawntime="60"/>
     <monster name="Demon" x="-8" y="-24" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="17" y="-22" z="13" spawntime="60"/>
+    <monster name="Demon" x="0" y="-21" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="4" y="-21" z="13" spawntime="60"/>
+    <monster name="Demon" x="0" y="-20" z="13" spawntime="60"/>
     <monster name="Phantasm" x="2" y="-20" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="-17" y="-19" z="13" spawntime="60"/>
+    <monster name="Demon" x="-14" y="-19" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-13" y="-19" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-2" y="-19" z="13" spawntime="60"/>
+    <monster name="Demon" x="0" y="-19" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="-19" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="4" y="-19" z="13" spawntime="60"/>
+    <monster name="Demon" x="18" y="-19" z="13" spawntime="60"/>
+    <monster name="Demon" x="19" y="-19" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-19" y="-18" z="13" spawntime="60"/>
+    <monster name="Demon" x="-14" y="-18" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-10" y="-18" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-4" y="-18" z="13" spawntime="120"/>
+    <monster name="Demon" x="0" y="-18" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="19" y="-18" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-22" y="-17" z="13" spawntime="120"/>
+    <monster name="Phantasm" x="-9" y="-17" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-5" y="-17" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="16" y="-17" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="17" y="-17" z="13" spawntime="60"/>
     <monster name="Nightmare" x="6" y="-16" z="13" spawntime="120"/>
     <monster name="Nightmare" x="7" y="-16" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="16" y="-16" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="19" y="-16" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="18" y="-15" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-22" y="-14" z="13" spawntime="60"/>
+    <monster name="Demon" x="3" y="-14" z="13" spawntime="60"/>
+    <monster name="Demon" x="3" y="-13" z="13" spawntime="60"/>
+    <monster name="Demon" x="5" y="-13" z="13" spawntime="60"/>
+    <monster name="Demon" x="-24" y="-12" z="13" spawntime="60"/>
+    <monster name="Demon" x="-23" y="-12" z="13" spawntime="60"/>
+    <monster name="Demon" x="-22" y="-12" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-19" y="-12" z="13" spawntime="120"/>
     <monster name="Phantasm" x="-18" y="-12" z="13" spawntime="120"/>
+    <monster name="Demon" x="5" y="-11" z="13" spawntime="60"/>
+    <monster name="Demon" x="6" y="-11" z="13" spawntime="60"/>
+    <monster name="Demon" x="7" y="-11" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-23" y="-10" z="13" spawntime="60"/>
     <monster name="Phantasm" x="15" y="-10" z="13" spawntime="120"/>
+    <monster name="Phantasm" x="-5" y="-9" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="-4" y="-9" z="13" spawntime="60"/>
+    <monster name="Demon" x="15" y="-9" z="13" spawntime="60"/>
+    <monster name="Demon" x="16" y="-9" z="13" spawntime="60"/>
+    <monster name="Demon" x="17" y="-9" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-23" y="-8" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="4" y="-8" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="17" y="-8" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="3" y="-7" z="13" spawntime="60"/>
+    <monster name="Demon" x="-23" y="-6" z="13" spawntime="60"/>
+    <monster name="Demon" x="-22" y="-6" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="-6" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="7" y="-6" z="13" spawntime="60"/>
+    <monster name="Demon" x="18" y="-6" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="-6" y="-5" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="9" y="-5" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="12" y="-5" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="19" y="-5" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-22" y="-4" z="13" spawntime="60"/>
     <monster name="Nightmare" x="0" y="-4" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="10" y="-4" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="20" y="-4" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="2" y="-3" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="8" y="-3" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="10" y="-3" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="19" y="-3" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="1" y="-2" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="2" y="-2" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="20" y="-2" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="-1" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-9" y="0" z="13" spawntime="60"/>
+    <monster name="Demon" x="-6" y="0" z="13" spawntime="60"/>
     <monster name="Nightmare" x="3" y="0" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="-7" y="1" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="-5" y="1" z="13" spawntime="60"/>
     <monster name="Demon" x="9" y="1" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="10" y="1" z="13" spawntime="60"/>
+    <monster name="Demon" x="-8" y="2" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-6" y="2" z="13" spawntime="120"/>
     <monster name="Demon" x="5" y="3" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="6" y="3" z="13" spawntime="60"/>
+    <monster name="Demon" x="-8" y="4" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="4" y="4" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="6" y="4" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="5" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="0" y="7" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="1" y="7" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="8" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="3" y="8" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-6" y="9" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="1" y="9" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="3" y="9" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="8" y="9" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-8" y="10" z="13" spawntime="120"/>
+    <monster name="Demon" x="-7" y="10" z="13" spawntime="60"/>
+    <monster name="Demon" x="-5" y="10" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="3" y="10" z="13" spawntime="60"/>
+    <monster name="Nightmare" x="8" y="10" z="13" spawntime="60"/>
     <monster name="Phantasm" x="-9" y="11" z="13" spawntime="120"/>
+    <monster name="Nightmare" x="3" y="11" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="7" y="11" z="13" spawntime="60"/>
+    <monster name="Phantasm" x="7" y="12" z="13" spawntime="60"/>
+    <monster name="Demon" x="-9" y="13" z="13" spawntime="60"/>
+    <monster name="Demon" x="9" y="13" z="13" spawntime="60"/>
+    <monster name="Demon" x="10" y="13" z="13" spawntime="60"/>
+    <monster name="Demon" x="11" y="13" z="13" spawntime="60"/>
+    <monster name="Demon" x="12" y="13" z="13" spawntime="60"/>
     <monster name="Nightmare" x="-2" y="14" z="13" spawntime="120"/>
+    <monster name="Demon" x="-3" y="15" z="13" spawntime="60"/>
+    <monster name="Demon" x="-6" y="16" z="13" spawntime="60"/>
+    <monster name="Demon" x="-5" y="16" z="13" spawntime="60"/>
     <monster name="Nightmare" x="-7" y="18" z="13" spawntime="120"/>
     <monster name="Nightmare" x="-9" y="19" z="13" spawntime="120"/>
     <monster name="Demon" x="11" y="19" z="13" spawntime="60"/>
+    <monster name="Demon" x="-10" y="20" z="13" spawntime="60"/>
+    <monster name="Demon" x="9" y="21" z="13" spawntime="60"/>
+    <monster name="Demon" x="11" y="21" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="494" centery="1448" centerz="13" radius="20">
     <monster name="Demon" x="1" y="-11" z="13" spawntime="120"/>
@@ -59753,6 +59907,13 @@
     <monster name="Diabolic Imp" x="3" y="20" z="14" spawntime="120"/>
   </spawn>
   <spawn centerx="413" centery="1400" centerz="14" radius="30">
+    <monster name="Demon" x="18" y="-27" z="14" spawntime="60"/>
+    <monster name="Demon" x="19" y="-27" z="14" spawntime="60"/>
+    <monster name="Demon" x="10" y="-26" z="14" spawntime="60"/>
+    <monster name="Demon" x="11" y="-26" z="14" spawntime="60"/>
+    <monster name="Demon" x="19" y="-26" z="14" spawntime="60"/>
+    <monster name="Demon" x="18" y="-25" z="14" spawntime="60"/>
+    <monster name="Demon" x="10" y="-24" z="14" spawntime="60"/>
     <monster name="Phantasm" x="17" y="-24" z="14" spawntime="120"/>
     <monster name="Phantasm" x="17" y="-23" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-1" y="-21" z="14" spawntime="120"/>
@@ -59765,24 +59926,89 @@
     <monster name="Phantasm" x="0" y="-17" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-5" y="-16" z="14" spawntime="120"/>
     <monster name="Nightmare" x="-4" y="-14" z="14" spawntime="120"/>
+    <monster name="Phantasm" x="3" y="-9" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="-5" z="14" spawntime="60"/>
     <monster name="Phantasm" x="14" y="-5" z="14" spawntime="120"/>
+    <monster name="Demon" x="14" y="-4" z="14" spawntime="60"/>
+    <monster name="Demon" x="15" y="-4" z="14" spawntime="60"/>
     <monster name="Phantasm" x="16" y="-4" z="14" spawntime="120"/>
+    <monster name="Demon" x="-3" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="14" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="15" y="-3" z="14" spawntime="60"/>
     <monster name="Phantasm" x="-23" y="-1" z="14" spawntime="120"/>
+    <monster name="Demon" x="2" y="-1" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-24" y="0" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-3" y="0" z="14" spawntime="120"/>
+    <monster name="Demon" x="8" y="0" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="1" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="1" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="9" y="1" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-23" y="2" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-4" y="2" z="14" spawntime="120"/>
+    <monster name="Demon" x="0" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="-21" y="3" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-20" y="3" z="14" spawntime="60"/>
     <monster name="Phantasm" x="6" y="3" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="7" y="3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-21" y="4" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-14" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-7" y="4" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-4" y="4" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="6" y="4" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-19" y="5" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="-17" y="5" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-10" y="5" z="14" spawntime="120"/>
+    <monster name="Demon" x="-7" y="5" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="5" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="3" y="8" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="8" z="14" spawntime="60"/>
+    <monster name="Demon" x="-13" y="9" z="14" spawntime="60"/>
+    <monster name="Demon" x="-12" y="9" z="14" spawntime="1280"/>
+    <monster name="Demon" x="-4" y="9" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="9" z="14" spawntime="60"/>
+    <monster name="Demon" x="3" y="10" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-13" y="11" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-12" y="13" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-13" y="14" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="-13" y="16" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="16" z="14" spawntime="60"/>
+    <monster name="Demon" x="-13" y="17" z="14" spawntime="60"/>
+    <monster name="Demon" x="-12" y="17" z="14" spawntime="60"/>
     <monster name="Phantasm" x="-5" y="17" z="14" spawntime="120"/>
+    <monster name="Demon" x="-5" y="18" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="18" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="19" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="19" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="19" z="14" spawntime="60"/>
+    <monster name="Demon" x="10" y="19" z="14" spawntime="60"/>
     <monster name="Phantasm" x="-13" y="20" z="14" spawntime="120"/>
     <monster name="Phantasm" x="9" y="21" z="14" spawntime="120"/>
     <monster name="Nightmare" x="-13" y="22" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-12" y="22" z="14" spawntime="120"/>
     <monster name="Phantasm" x="8" y="22" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="-12" y="24" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-13" y="25" z="14" spawntime="60"/>
+    <monster name="Demon" x="-10" y="25" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="-6" y="25" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="25" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-1" y="25" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="1" y="25" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="25" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="25" z="14" spawntime="60"/>
+    <monster name="Demon" x="-10" y="26" z="14" spawntime="1280"/>
+    <monster name="Nightmare" x="-8" y="26" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="-6" y="26" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-4" y="26" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="26" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="26" z="14" spawntime="60"/>
+    <monster name="Demon" x="3" y="26" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="26" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="589" centery="1424" centerz="14" radius="13">
     <monster name="Hellfire Fighter" x="5" y="-3" z="14" spawntime="120"/>
