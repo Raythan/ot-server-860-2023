@@ -49339,16 +49339,81 @@
     <monster name="Scarab" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="432" centery="1291" centerz="11" radius="15">
+    <monster name="Plaguesmith" x="-1" y="-7" z="11" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="0" y="-7" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="1" y="-7" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="2" y="-7" z="11" spawntime="60"/>
+    <monster name="Phantasm" x="-1" y="-6" z="11" spawntime="60"/>
+    <monster name="Phantasm" x="2" y="-6" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-2" y="-5" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="-5" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="13" y="-5" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="-4" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-2" y="-4" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="4" y="-4" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="12" y="-4" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="14" y="-4" z="11" spawntime="60"/>
+    <monster name="Phantasm" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="1" y="-3" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="2" y="-3" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="14" y="-3" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="-2" z="11" spawntime="60"/>
     <monster name="Blightwalker" x="0" y="-2" z="11" spawntime="1000"/>
+    <monster name="Plaguesmith" x="2" y="-2" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="12" y="-2" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Phantasm" x="1" y="-1" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="13" y="-1" z="11" spawntime="60"/>
     <monster name="Blightwalker" x="-3" y="0" z="11" spawntime="1000"/>
+    <monster name="Blightwalker" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="-1" y="0" z="11" spawntime="60"/>
     <monster name="Betrayed Wraith" x="0" y="0" z="11" spawntime="1000"/>
+    <monster name="Plaguesmith" x="2" y="0" z="11" spawntime="60"/>
     <monster name="Betrayed Wraith" x="3" y="0" z="11" spawntime="1000"/>
+    <monster name="Plaguesmith" x="12" y="0" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="14" y="0" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="8" y="1" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="10" y="1" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="12" y="1" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="13" y="1" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="-2" y="2" z="11" spawntime="60"/>
     <monster name="Phantasm" x="3" y="2" z="11" spawntime="1000"/>
+    <monster name="Phantasm" x="6" y="2" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="7" y="2" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="8" y="2" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="9" y="2" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="11" y="2" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="14" y="2" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-3" y="3" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="2" y="3" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="5" y="3" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-2" y="4" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="2" y="4" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="-9" y="5" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="-6" y="5" z="11" spawntime="60"/>
     <monster name="Plaguesmith" x="-2" y="5" z="11" spawntime="1000"/>
     <monster name="Phantasm" x="0" y="5" z="11" spawntime="1000"/>
+    <monster name="Blightwalker" x="3" y="5" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="-9" y="6" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="-6" y="6" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="6" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-1" y="6" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="1" y="6" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="2" y="6" z="11" spawntime="60"/>
+    <monster name="Blightwalker" x="3" y="6" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-4" y="7" z="11" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="0" y="7" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="8" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-1" y="9" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="0" y="9" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="1" y="9" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="0" y="10" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-1" y="11" z="11" spawntime="60"/>
     <monster name="Phantasm" x="0" y="12" z="11" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-1" y="13" z="11" spawntime="60"/>
     <monster name="Blightwalker" x="-1" y="14" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="14" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="15" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="432" centery="1302" centerz="11" radius="1"/>
   <spawn centerx="431" centery="1307" centerz="11" radius="1">
@@ -49357,9 +49422,19 @@
   <spawn centerx="491" centery="1308" centerz="11" radius="5">
     <monster name="Lost Soul" x="4" y="0" z="11" spawntime="120"/>
     <monster name="Lost Soul" x="1" y="2" z="11" spawntime="120"/>
+    <monster name="Dark Torturer" x="2" y="3" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="3" y="3" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="5" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="432" centery="1311" centerz="11" radius="1">
+    <monster name="Hellfire Fighter" x="1" y="-1" z="11" spawntime="60"/>
     <monster name="Betrayed Wraith" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="494" centery="1316" centerz="11" radius="1">
+    <monster name="Nightmare" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="434" centery="1318" centerz="11" radius="7">
     <monster name="Hellfire Fighter" x="2" y="-2" z="11" spawntime="60"/>
@@ -49369,72 +49444,191 @@
     <monster name="Magicthrower" x="3" y="4" z="11" spawntime="60"/>
     <monster name="Demon Skeleton" x="-2" y="5" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="467" centery="1328" centerz="11" radius="1">
-    <monster name="Destroyer" x="1" y="0" z="11" spawntime="120"/>
-  </spawn>
-  <spawn centerx="457" centery="1330" centerz="11" radius="5">
-    <monster name="Plaguesmith" x="0" y="1" z="11" spawntime="60"/>
-    <monster name="Destroyer" x="-2" y="4" z="11" spawntime="120"/>
-  </spawn>
-  <spawn centerx="464" centery="1330" centerz="11" radius="1">
-    <monster name="Diabolic Imp" x="0" y="1" z="11" spawntime="120"/>
-  </spawn>
-  <spawn centerx="472" centery="1330" centerz="11" radius="1">
+  <spawn centerx="490" centery="1320" centerz="11" radius="1">
     <monster name="Destroyer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="490" centery="1326" centerz="11" radius="1">
+    <monster name="Nightmare" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="469" centery="1328" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="0" z="11" spawntime="120"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="473" centery="1329" centerz="11" radius="1">
+    <monster name="Nightmare" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="465" centery="1330" centerz="11" radius="1">
+    <monster name="Diabolic Imp" x="-1" y="1" z="11" spawntime="120"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="483" centery="1330" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="458" centery="1332" centerz="11" radius="1">
+    <monster name="Plaguesmith" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="461" centery="1334" centerz="11" radius="1">
+    <monster name="Plaguesmith" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="482" centery="1334" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="464" centery="1335" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
     <monster name="Hellfire Fighter" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="468" centery="1335" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="458" centery="1337" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="0" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
     <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="485" centery="1337" centerz="11" radius="1">
     <monster name="Defiler" x="0" y="0" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="519" centery="1337" centerz="11" radius="1">
-    <monster name="Diabolic Imp" x="-1" y="0" z="11" spawntime="120"/>
+  <spawn centerx="518" centery="1337" centerz="11" radius="1">
+    <monster name="Diabolic Imp" x="0" y="0" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="463" centery="1340" centerz="11" radius="1">
-    <monster name="Dark Torturer" x="-1" y="0" z="11" spawntime="120"/>
+  <spawn centerx="473" centery="1338" centerz="11" radius="1">
+    <monster name="Hellfire Fighter" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Lost Soul" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Diabolic Imp" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Defiler" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="472" centery="1340" centerz="11" radius="1">
-    <monster name="Diabolic Imp" x="-1" y="1" z="11" spawntime="60"/>
+  <spawn centerx="455" centery="1340" centerz="11" radius="1">
+    <monster name="Dark Torturer" x="-1" y="-1" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="493" centery="1340" centerz="11" radius="1">
     <monster name="Defiler" x="1" y="0" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="454" centery="1342" centerz="11" radius="5">
-    <monster name="Dark Torturer" x="0" y="-3" z="11" spawntime="120"/>
-    <monster name="Dark Torturer" x="2" y="1" z="11" spawntime="60"/>
+  <spawn centerx="508" centery="1340" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="464" centery="1344" centerz="11" radius="1">
-    <monster name="Diabolic Imp" x="1" y="0" z="11" spawntime="60"/>
+  <spawn centerx="458" centery="1341" centerz="11" radius="1">
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="462" centery="1341" centerz="11" radius="1">
+    <monster name="Dark Torturer" x="0" y="-1" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="471" centery="1341" centerz="11" radius="1">
+    <monster name="Diabolic Imp" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="498" centery="1341" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="465" centery="1344" centerz="11" radius="1">
+    <monster name="Diabolic Imp" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="518" centery="1344" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="475" centery="1345" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Plaguesmith" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="499" centery="1345" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="-1" z="11" spawntime="60"/>
     <monster name="Plaguesmith" x="0" y="0" z="11" spawntime="120"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="513" centery="1345" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="-1" z="11" spawntime="60"/>
     <monster name="Fire Devil" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="476" centery="1346" centerz="11" radius="1">
-    <monster name="Plaguesmith" x="-1" y="-1" z="11" spawntime="60"/>
+  <spawn centerx="467" centery="1347" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="468" centery="1350" centerz="11" radius="2">
-    <monster name="Hellfire Fighter" x="0" y="-2" z="11" spawntime="60"/>
+  <spawn centerx="468" centery="1350" centerz="11" radius="1">
     <monster name="Nightmare" x="0" y="-1" z="11" spawntime="60"/>
     <monster name="Dark Torturer" x="-1" y="0" z="11" spawntime="60"/>
     <monster name="Plaguesmith" x="-1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="481" centery="1351" centerz="11" radius="1">
+  <spawn centerx="481" centery="1352" centerz="11" radius="1">
+    <monster name="Plaguesmith" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="486" centery="1355" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="498" centery="1357" centerz="11" radius="1">
+    <monster name="Dark Torturer" x="0" y="0" z="11" spawntime="120"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="492" centery="1358" centerz="11" radius="1">
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="487" centery="1359" centerz="11" radius="1">
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="-1" z="11" spawntime="60"/>
     <monster name="Plaguesmith" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="1" y="1" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="487" centery="1357" centerz="11" radius="1">
-    <monster name="Dark Torturer" x="-1" y="-1" z="11" spawntime="60"/>
-    <monster name="Dark Torturer" x="1" y="1" z="11" spawntime="60"/>
-  </spawn>
-  <spawn centerx="499" centery="1358" centerz="11" radius="5">
-    <monster name="Dark Torturer" x="-1" y="-1" z="11" spawntime="120"/>
-    <monster name="Nightmare" x="-4" y="2" z="11" spawntime="60"/>
+  <spawn centerx="495" centery="1360" centerz="11" radius="1">
+    <monster name="Destroyer" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Nightmare" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="376" centery="1361" centerz="11" radius="10">
     <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
@@ -49448,8 +49642,10 @@
     <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="140"/>
     <monster name="Dragon Lord" x="1" y="1" z="11" spawntime="140"/>
   </spawn>
-  <spawn centerx="487" centery="1361" centerz="11" radius="1">
-    <monster name="Plaguesmith" x="0" y="-1" z="11" spawntime="60"/>
+  <spawn centerx="490" centery="1361" centerz="11" radius="1">
+    <monster name="Nightmare" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="451" centery="1375" centerz="11" radius="5">
     <monster name="Destroyer" x="-3" y="-4" z="11" spawntime="30"/>
@@ -57398,15 +57594,41 @@
     <monster name="Betrayed Wraith" x="-5" y="10" z="13" spawntime="60"/>
     <monster name="Betrayed Wraith" x="-3" y="10" z="13" spawntime="60"/>
     <monster name="Demon" x="-2" y="10" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="0" y="10" z="13" spawntime="60"/>
     <monster name="Betrayed Wraith" x="1" y="10" z="13" spawntime="60"/>
     <monster name="Betrayed Wraith" x="2" y="10" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-1" y="11" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-5" y="12" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-3" y="12" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="-1" y="12" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="1" y="12" z="13" spawntime="60"/>
     <monster name="Betrayed Wraith" x="3" y="12" z="13" spawntime="120"/>
+    <monster name="Hand of Cursed Fate" x="5" y="12" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="6" y="12" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="7" y="12" z="13" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="-4" y="13" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="0" y="13" z="13" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="6" y="13" z="13" spawntime="120"/>
+    <monster name="Betrayed Wraith" x="-3" y="14" z="13" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="0" y="14" z="13" spawntime="60"/>
+    <monster name="Demon" x="3" y="14" z="13" spawntime="60"/>
+    <monster name="Demon" x="4" y="14" z="13" spawntime="60"/>
+    <monster name="Demon" x="3" y="15" z="13" spawntime="60"/>
+    <monster name="Demon" x="4" y="15" z="13" spawntime="60"/>
+    <monster name="Demon" x="-2" y="16" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="-1" y="16" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="0" y="16" z="13" spawntime="60"/>
     <monster name="Spectre" x="1" y="16" z="13" spawntime="120"/>
+    <monster name="Hand of Cursed Fate" x="2" y="16" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="2" y="17" z="13" spawntime="60"/>
     <monster name="Spectre" x="-1" y="18" z="13" spawntime="120"/>
     <monster name="Spectre" x="2" y="18" z="13" spawntime="120"/>
+    <monster name="Demon" x="0" y="19" z="13" spawntime="60"/>
+    <monster name="Demon" x="2" y="19" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="-2" y="20" z="13" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="0" y="20" z="13" spawntime="120"/>
+    <monster name="Hand of Cursed Fate" x="1" y="20" z="13" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="3" y="20" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="33083" centery="3260" centerz="13" radius="5">
     <monster name="Stalker" x="0" y="0" z="13" spawntime="60"/>
@@ -60064,7 +60286,28 @@
     <monster name="Nightmare" x="-5" y="-17" z="14" spawntime="120"/>
     <monster name="Phantasm" x="0" y="-17" z="14" spawntime="120"/>
     <monster name="Phantasm" x="-5" y="-16" z="14" spawntime="120"/>
+    <monster name="Demon" x="7" y="-15" z="14" spawntime="60"/>
     <monster name="Nightmare" x="-4" y="-14" z="14" spawntime="120"/>
+    <monster name="Nightmare" x="-3" y="-14" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="0" y="-14" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="1" y="-14" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="2" y="-14" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="-14" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="7" y="-14" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="-14" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-2" y="-13" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="0" y="-13" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="2" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="3" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="-13" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="6" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="9" y="-12" z="14" spawntime="60"/>
+    <monster name="Phantasm" x="-4" y="-11" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="-11" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-3" y="-10" z="14" spawntime="60"/>
+    <monster name="Nightmare" x="-2" y="-9" z="14" spawntime="60"/>
     <monster name="Phantasm" x="3" y="-9" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="-7" z="14" spawntime="60"/>
     <monster name="Demon" x="5" y="-7" z="14" spawntime="60"/>
@@ -60150,10 +60393,22 @@
     <monster name="Demon" x="6" y="26" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="589" centery="1424" centerz="14" radius="13">
+    <monster name="Diabolic Imp" x="-3" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-3" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-3" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-1" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="0" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="2" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="3" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="1" y="-6" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-3" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-1" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="0" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="3" y="-4" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="5" y="-3" z="14" spawntime="120"/>
     <monster name="Hellhound" x="-2" y="-2" z="14" spawntime="60"/>
     <monster name="Hellhound" x="0" y="-2" z="14" spawntime="60"/>
@@ -60197,27 +60452,42 @@
     <monster name="Hellfire Fighter" x="8" y="-8" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="5" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="7" y="-7" z="14" spawntime="120"/>
+    <monster name="Diabolic Imp" x="8" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="10" y="-7" z="14" spawntime="120"/>
+    <monster name="Diabolic Imp" x="5" y="-6" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="4" y="-5" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-3" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="4" y="-2" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-4" y="-1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-2" y="-1" z="14" spawntime="120"/>
     <monster name="Hellfire Fighter" x="0" y="-1" z="14" spawntime="120"/>
+    <monster name="Diabolic Imp" x="1" y="-1" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="-1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-4" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-3" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-2" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-4" y="1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-3" y="1" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-1" y="1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="2" y="1" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="1" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="560" centery="1440" centerz="14" radius="20">
+    <monster name="Diabolic Imp" x="1" y="-14" z="14" spawntime="60"/>
     <monster name="Demon" x="13" y="-14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="14" y="-14" z="14" spawntime="60"/>
     <monster name="Demon" x="-2" y="-13" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="0" y="-13" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="1" y="-13" z="14" spawntime="60"/>
     <monster name="Hellhound" x="3" y="-13" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="-13" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="13" y="-13" z="14" spawntime="60"/>
     <monster name="Demon" x="15" y="-13" z="14" spawntime="60"/>
     <monster name="Demon" x="-4" y="-12" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-12" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="12" y="-12" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-12" y="-11" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-10" y="-11" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-4" y="-11" z="14" spawntime="60"/>
@@ -60226,28 +60496,45 @@
     <monster name="Demon" x="4" y="-11" z="14" spawntime="60"/>
     <monster name="Hellhound" x="5" y="-11" z="14" spawntime="60"/>
     <monster name="Demon" x="14" y="-11" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-11" y="-10" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-4" y="-10" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-10" z="14" spawntime="60"/>
     <monster name="Hellhound" x="12" y="-10" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="-9" z="14" spawntime="60"/>
     <monster name="Demon" x="-5" y="-9" z="14" spawntime="60"/>
     <monster name="Demon" x="-3" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="-9" z="14" spawntime="60"/>
     <monster name="Hellhound" x="3" y="-9" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="-9" z="14" spawntime="60"/>
     <monster name="Hellhound" x="14" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="-9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-15" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-13" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-11" y="-8" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-10" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="-8" z="14" spawntime="60"/>
     <monster name="Hellhound" x="5" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="-8" z="14" spawntime="60"/>
     <monster name="Demon" x="12" y="-8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-15" y="-7" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-14" y="-7" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-4" y="-7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-3" y="-7" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="12" y="-7" z="14" spawntime="60"/>
     <monster name="Demon" x="14" y="-7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="-7" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-13" y="-6" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-4" y="-6" z="14" spawntime="120"/>
     <monster name="Hellhound" x="-3" y="-6" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="5" y="-6" z="14" spawntime="120"/>
+    <monster name="Diabolic Imp" x="13" y="-6" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-11" y="-5" z="14" spawntime="60"/>
     <monster name="Demon" x="-10" y="-5" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-5" y="-5" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-3" y="-5" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="-5" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="4" y="-5" z="14" spawntime="1280"/>
@@ -60258,12 +60545,17 @@
     <monster name="Hellfire Fighter" x="13" y="-5" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="14" y="-5" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="15" y="-5" z="14" spawntime="1280"/>
+    <monster name="Diabolic Imp" x="-12" y="-4" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-3" y="-4" z="14" spawntime="120"/>
     <monster name="Demon" x="4" y="-4" z="14" spawntime="60"/>
     <monster name="Demon" x="5" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="11" y="-4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="12" y="-4" z="14" spawntime="60"/>
     <monster name="Hellhound" x="13" y="-4" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="-3" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-11" y="-3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-10" y="-3" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-5" y="-3" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-4" y="-3" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="-3" y="-3" z="14" spawntime="1280"/>
@@ -60273,8 +60565,11 @@
     <monster name="Demon" x="14" y="-3" z="14" spawntime="60"/>
     <monster name="Demon" x="-12" y="-2" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-3" y="-2" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="-2" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="-2" z="14" spawntime="60"/>
     <monster name="Hellhound" x="12" y="-2" z="14" spawntime="60"/>
     <monster name="Demon" x="13" y="-2" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="-2" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-13" y="-1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="-1" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="-11" y="-1" z="14" spawntime="1280"/>
@@ -60284,6 +60579,7 @@
     <monster name="Hellhound" x="-11" y="0" z="14" spawntime="60"/>
     <monster name="Demon" x="-4" y="0" z="14" spawntime="120"/>
     <monster name="Hellhound" x="-3" y="0" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="0" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="4" y="0" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="5" y="0" z="14" spawntime="1280"/>
@@ -60291,6 +60587,9 @@
     <monster name="Demon" x="12" y="0" z="14" spawntime="60"/>
     <monster name="Hellhound" x="14" y="0" z="14" spawntime="120"/>
     <monster name="Hellfire Fighter" x="15" y="0" z="14" spawntime="120"/>
+    <monster name="Diabolic Imp" x="-13" y="1" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-10" y="1" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-4" y="1" z="14" spawntime="60"/>
     <monster name="Hellhound" x="5" y="1" z="14" spawntime="60"/>
     <monster name="Demon" x="12" y="1" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="2" z="14" spawntime="120"/>
@@ -60299,10 +60598,18 @@
     <monster name="Hellfire Fighter" x="-4" y="2" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="-3" y="2" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="-2" y="2" z="14" spawntime="1280"/>
+    <monster name="Diabolic Imp" x="3" y="2" z="14" spawntime="60"/>
     <monster name="Demon" x="5" y="2" z="14" spawntime="60"/>
     <monster name="Demon" x="14" y="2" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="2" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-12" y="3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-11" y="3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-4" y="3" z="14" spawntime="60"/>
     <monster name="Demon" x="-3" y="3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="3" z="14" spawntime="60"/>
     <monster name="Hellhound" x="12" y="3" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="13" y="3" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-13" y="4" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-12" y="4" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="-11" y="4" z="14" spawntime="1280"/>
@@ -60313,24 +60620,39 @@
     <monster name="Hellfire Fighter" x="-2" y="4" z="14" spawntime="1280"/>
     <monster name="Hellhound" x="4" y="4" z="14" spawntime="60"/>
     <monster name="Hellhound" x="5" y="4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="4" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="11" y="4" z="14" spawntime="60"/>
     <monster name="Hellhound" x="14" y="4" z="14" spawntime="60"/>
     <monster name="Demon" x="-12" y="5" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-11" y="5" z="14" spawntime="60"/>
     <monster name="Demon" x="3" y="5" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="12" y="5" z="14" spawntime="60"/>
     <monster name="Demon" x="13" y="5" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-13" y="6" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-12" y="6" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-5" y="6" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-4" y="6" z="14" spawntime="60"/>
     <monster name="Demon" x="-3" y="6" z="14" spawntime="60"/>
     <monster name="Hellhound" x="4" y="6" z="14" spawntime="60"/>
     <monster name="Demon" x="5" y="6" z="14" spawntime="60"/>
     <monster name="Demon" x="14" y="6" z="14" spawntime="60"/>
     <monster name="Demon" x="-11" y="7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-10" y="7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-4" y="7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="7" z="14" spawntime="60"/>
     <monster name="Demon" x="13" y="7" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="7" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-13" y="8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-12" y="8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-5" y="8" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-4" y="8" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="8" z="14" spawntime="60"/>
-    <monster name="Hellhound" x="14" y="8" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="8" z="14" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="11" y="8" z="14" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="12" y="8" z="14" spawntime="1280"/>
+    <monster name="Hellfire Fighter" x="13" y="8" z="14" spawntime="1280"/>
+    <monster name="Hellfire Fighter" x="14" y="8" z="14" spawntime="1280"/>
+    <monster name="Hellfire Fighter" x="15" y="8" z="14" spawntime="1280"/>
     <monster name="Hellhound" x="-11" y="9" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-3" y="9" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="9" z="14" spawntime="60"/>
@@ -60338,8 +60660,13 @@
     <monster name="Hellfire Fighter" x="5" y="9" z="14" spawntime="1280"/>
     <monster name="Hellfire Fighter" x="6" y="9" z="14" spawntime="1280"/>
     <monster name="Hellhound" x="12" y="9" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="15" y="9" z="14" spawntime="60"/>
     <monster name="Demon" x="-13" y="10" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-11" y="10" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-2" y="10" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="10" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="6" y="10" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="13" y="10" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-12" y="11" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-5" y="11" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-3" y="11" z="14" spawntime="60"/>
@@ -60351,141 +60678,520 @@
     <monster name="Hellfire Fighter" x="-4" y="12" z="14" spawntime="1280"/>
     <monster name="Demon" x="-2" y="12" z="14" spawntime="60"/>
     <monster name="Demon" x="4" y="12" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="5" y="12" z="14" spawntime="60"/>
     <monster name="Demon" x="13" y="12" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-10" y="13" z="14" spawntime="120"/>
     <monster name="Hellfire Fighter" x="-4" y="13" z="14" spawntime="60"/>
     <monster name="Demon" x="-3" y="13" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="13" z="14" spawntime="120"/>
     <monster name="Hellhound" x="8" y="13" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="9" y="13" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="13" y="13" z="14" spawntime="120"/>
     <monster name="Hellhound" x="15" y="13" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-12" y="14" z="14" spawntime="120"/>
     <monster name="Hellhound" x="-11" y="14" z="14" spawntime="60"/>
     <monster name="Hellhound" x="-6" y="14" z="14" spawntime="60"/>
     <monster name="Demon" x="-5" y="14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-3" y="14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="4" y="14" z="14" spawntime="60"/>
     <monster name="Hellhound" x="5" y="14" z="14" spawntime="60"/>
     <monster name="Demon" x="6" y="14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="7" y="14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="8" y="14" z="14" spawntime="60"/>
     <monster name="Hellhound" x="10" y="14" z="14" spawntime="60"/>
     <monster name="Hellhound" x="13" y="14" z="14" spawntime="60"/>
+    <monster name="Diabolic Imp" x="-4" y="15" z="14" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-2" y="15" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="466" centery="1489" centerz="14" radius="20">
+    <monster name="Demon" x="-6" y="-13" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-4" y="-13" z="14" spawntime="120"/>
     <monster name="Dark Torturer" x="10" y="-13" z="14" spawntime="120"/>
+    <monster name="Demon" x="-6" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="-12" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="-12" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="6" y="-12" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="11" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="13" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="-7" y="-11" z="14" spawntime="60"/>
+    <monster name="Demon" x="-6" y="-11" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-4" y="-11" z="14" spawntime="120"/>
+    <monster name="Demon" x="-3" y="-11" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="0" y="-11" z="14" spawntime="60"/>
     <monster name="Banshee" x="2" y="-11" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="4" y="-11" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="7" y="-11" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="9" y="-11" z="14" spawntime="120"/>
+    <monster name="Demon" x="12" y="-11" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="14" y="-11" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="-7" y="-10" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-2" y="-10" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="-10" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="4" y="-10" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="6" y="-10" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="10" y="-10" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="14" y="-10" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-2" y="-9" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="-9" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="0" y="-9" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="2" y="-9" z="14" spawntime="60"/>
     <monster name="Demon" x="8" y="-9" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="12" y="-9" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="14" y="-9" z="14" spawntime="120"/>
     <monster name="Banshee" x="-1" y="-8" z="14" spawntime="120"/>
+    <monster name="Demon" x="6" y="-8" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="9" y="-8" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="11" y="-8" z="14" spawntime="120"/>
+    <monster name="Demon" x="13" y="-8" z="14" spawntime="60"/>
     <monster name="Banshee" x="-7" y="-7" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="-3" y="-7" z="14" spawntime="120"/>
+    <monster name="Lost Soul" x="1" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="-7" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="12" y="-7" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="6" y="-6" z="14" spawntime="120"/>
+    <monster name="Demon" x="10" y="-6" z="14" spawntime="60"/>
+    <monster name="Demon" x="15" y="-6" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-6" y="-5" z="14" spawntime="120"/>
+    <monster name="Demon" x="-2" y="-5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="-1" y="-5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="-5" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="9" y="-5" z="14" spawntime="120"/>
     <monster name="Demon" x="12" y="-5" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="14" y="-5" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-7" y="-4" z="14" spawntime="120"/>
+    <monster name="Demon" x="-6" y="-4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="-4" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="-1" y="-4" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="6" y="-4" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="8" y="-4" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="10" y="-4" z="14" spawntime="60"/>
+    <monster name="Demon" x="15" y="-4" z="14" spawntime="60"/>
     <monster name="Banshee" x="-5" y="-3" z="14" spawntime="120"/>
+    <monster name="Lost Soul" x="-3" y="-3" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-7" y="-2" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="-2" z="14" spawntime="60"/>
     <monster name="Pig" x="11" y="-2" z="14" spawntime="60"/>
     <monster name="Pig" x="14" y="-2" z="14" spawntime="60"/>
     <monster name="Pig" x="15" y="-2" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="6" y="-1" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="7" y="-1" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="0" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-2" y="0" z="14" spawntime="120"/>
+    <monster name="Lost Soul" x="3" y="0" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="6" y="0" z="14" spawntime="120"/>
+    <monster name="Demon" x="8" y="0" z="14" spawntime="60"/>
     <monster name="Sheep" x="14" y="0" z="14" spawntime="60"/>
     <monster name="Sheep" x="15" y="0" z="14" spawntime="60"/>
+    <monster name="Demon" x="-12" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="-11" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="-9" y="1" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-6" y="1" z="14" spawntime="120"/>
+    <monster name="Demon" x="-2" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="1" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="2" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="1" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="10" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="11" y="1" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-17" y="2" z="14" spawntime="120"/>
+    <monster name="Demon" x="-14" y="2" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="-13" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="-11" y="2" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="-10" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="2" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-1" y="2" z="14" spawntime="120"/>
+    <monster name="Demon" x="1" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="3" y="2" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="7" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="2" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="9" y="2" z="14" spawntime="60"/>
     <monster name="Banshee" x="11" y="2" z="14" spawntime="120"/>
+    <monster name="Demon" x="-16" y="3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-13" y="3" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-11" y="3" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-9" y="3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-7" y="3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-6" y="3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="3" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="0" y="3" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="2" y="3" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="9" y="3" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="13" y="3" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="15" y="3" z="14" spawntime="60"/>
     <monster name="Banshee" x="-12" y="4" z="14" spawntime="120"/>
+    <monster name="Demon" x="-10" y="4" z="14" spawntime="60"/>
     <monster name="Banshee" x="-7" y="4" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-6" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="4" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="-2" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="4" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="10" y="4" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="12" y="4" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="14" y="4" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-17" y="5" z="14" spawntime="120"/>
     <monster name="Demon" x="-15" y="5" z="14" spawntime="120"/>
     <monster name="Dark Torturer" x="-13" y="5" z="14" spawntime="120"/>
+    <monster name="Demon" x="-10" y="5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="-9" y="5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="-7" y="5" z="14" spawntime="60"/>
     <monster name="Banshee" x="-1" y="5" z="14" spawntime="120"/>
+    <monster name="Lost Soul" x="1" y="5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="3" y="5" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="4" y="5" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="5" z="14" spawntime="60"/>
     <monster name="Banshee" x="9" y="5" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="12" y="5" z="14" spawntime="60"/>
     <monster name="Demon" x="-15" y="6" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-12" y="6" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="-11" y="6" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-9" y="6" z="14" spawntime="60"/>
     <monster name="Banshee" x="-7" y="6" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-6" y="6" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="6" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="6" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="6" z="14" spawntime="60"/>
     <monster name="Banshee" x="2" y="6" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="8" y="6" z="14" spawntime="60"/>
+    <monster name="Demon" x="10" y="6" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="14" y="6" z="14" spawntime="120"/>
+    <monster name="Demon" x="-11" y="7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-9" y="7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="7" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="0" y="7" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="2" y="7" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="8" y="7" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="11" y="7" z="14" spawntime="120"/>
     <monster name="Dark Torturer" x="13" y="7" z="14" spawntime="120"/>
+    <monster name="Demon" x="-7" y="8" z="14" spawntime="60"/>
+    <monster name="Demon" x="-6" y="8" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="8" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="-2" y="8" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="3" y="8" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="6" y="8" z="14" spawntime="120"/>
     <monster name="Demon" x="9" y="8" z="14" spawntime="120"/>
     <monster name="Banshee" x="11" y="8" z="14" spawntime="120"/>
     <monster name="Banshee" x="14" y="8" z="14" spawntime="120"/>
+    <monster name="Demon" x="-7" y="9" z="14" spawntime="60"/>
+    <monster name="Demon" x="-6" y="9" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="1" y="9" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="13" y="9" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="-6" y="10" z="14" spawntime="120"/>
     <monster name="Dark Torturer" x="-7" y="11" z="14" spawntime="120"/>
     <monster name="Lost Soul" x="-4" y="11" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-1" y="11" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="11" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="3" y="11" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="5" y="11" z="14" spawntime="60"/>
     <monster name="Banshee" x="6" y="11" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="8" y="11" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="10" y="11" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="11" y="11" z="14" spawntime="60"/>
     <monster name="Banshee" x="13" y="11" z="14" spawntime="120"/>
     <monster name="Demon" x="-6" y="12" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="-1" y="12" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="12" z="14" spawntime="60"/>
+    <monster name="Lost Soul" x="2" y="12" z="14" spawntime="60"/>
+    <monster name="Dark Torturer" x="4" y="12" z="14" spawntime="60"/>
     <monster name="Dark Torturer" x="7" y="12" z="14" spawntime="120"/>
+    <monster name="Dark Torturer" x="10" y="12" z="14" spawntime="60"/>
     <monster name="Lost Soul" x="13" y="12" z="14" spawntime="120"/>
   </spawn>
   <spawn centerx="533" centery="1490" centerz="14" radius="20">
+    <monster name="Demon" x="6" y="-14" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="-13" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="0" y="-13" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="2" y="-13" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="5" y="-13" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="-13" z="14" spawntime="60"/>
     <monster name="Lich" x="-2" y="-12" z="14" spawntime="120"/>
+    <monster name="Undead Dragon" x="0" y="-12" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="2" y="-12" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="5" y="-12" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="8" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="-11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="2" y="-11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="3" y="-11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="4" y="-11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="5" y="-11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="7" y="-11" z="14" spawntime="60"/>
+    <monster name="Demon" x="9" y="-11" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="-10" z="14" spawntime="60"/>
     <monster name="Lich" x="-3" y="-9" z="14" spawntime="120"/>
     <monster name="Demon" x="5" y="-9" z="14" spawntime="120"/>
+    <monster name="Demon" x="6" y="-9" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="-8" z="14" spawntime="60"/>
+    <monster name="Demon" x="-5" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="-6" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="-6" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="-5" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="-5" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="-4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="-4" z="14" spawntime="60"/>
     <monster name="Undead Dragon" x="0" y="-4" z="14" spawntime="120"/>
+    <monster name="Demon" x="5" y="-4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="-3" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="-3" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-5" y="-2" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="-2" z="14" spawntime="60"/>
     <monster name="Lich" x="-1" y="-1" z="14" spawntime="120"/>
     <monster name="Undead Dragon" x="2" y="-1" z="14" spawntime="120"/>
+    <monster name="Demon" x="4" y="-1" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-2" y="0" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="1" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="4" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="1" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-5" y="2" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-1" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="2" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="3" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="3" y="3" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-5" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="4" z="14" spawntime="60"/>
     <monster name="Lich" x="-3" y="5" z="14" spawntime="120"/>
     <monster name="Lich" x="2" y="5" z="14" spawntime="120"/>
+    <monster name="Demon" x="4" y="5" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-4" y="6" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="5" y="6" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="7" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-6" y="8" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="8" z="14" spawntime="60"/>
     <monster name="Lich" x="-1" y="8" z="14" spawntime="120"/>
+    <monster name="Demon" x="-4" y="9" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="4" y="9" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="10" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="10" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="1" y="10" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="3" y="11" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="12" z="14" spawntime="60"/>
+    <monster name="Demon" x="-1" y="12" z="14" spawntime="60"/>
+    <monster name="Demon" x="4" y="12" z="14" spawntime="60"/>
+    <monster name="Demon" x="3" y="13" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="0" y="17" z="14" spawntime="60"/>
+    <monster name="Demon" x="1" y="17" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="19" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="1" y="19" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="537" centery="1523" centerz="14" radius="15">
+    <monster name="Undead Dragon" x="-4" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="-12" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="-10" z="14" spawntime="60"/>
     <monster name="Demon" x="-3" y="-10" z="14" spawntime="120"/>
+    <monster name="Demon" x="-3" y="-8" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-4" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="-7" z="14" spawntime="60"/>
+    <monster name="Demon" x="-4" y="-5" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="-5" z="14" spawntime="60"/>
+    <monster name="Demon" x="-3" y="-3" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-4" y="-2" z="14" spawntime="60"/>
+    <monster name="Demon" x="-2" y="-2" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="-1" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="-1" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="8" y="-1" z="14" spawntime="60"/>
     <monster name="Lich" x="-4" y="0" z="14" spawntime="120"/>
     <monster name="Undead Dragon" x="-1" y="0" z="14" spawntime="120"/>
     <monster name="Undead Dragon" x="2" y="0" z="14" spawntime="120"/>
+    <monster name="Demon" x="4" y="0" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="7" y="0" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-3" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="0" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="1" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="5" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="1" z="14" spawntime="60"/>
+    <monster name="Demon" x="7" y="1" z="14" spawntime="60"/>
     <monster name="Lich" x="-1" y="2" z="14" spawntime="120"/>
+    <monster name="Demon" x="1" y="2" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="4" y="2" z="14" spawntime="60"/>
     <monster name="Lich" x="-3" y="3" z="14" spawntime="120"/>
+    <monster name="Undead Dragon" x="-1" y="3" z="14" spawntime="60"/>
     <monster name="Lich" x="1" y="3" z="14" spawntime="120"/>
     <monster name="Lich" x="2" y="3" z="14" spawntime="120"/>
     <monster name="Lich" x="5" y="3" z="14" spawntime="120"/>
     <monster name="Undead Dragon" x="6" y="3" z="14" spawntime="120"/>
+    <monster name="Undead Dragon" x="7" y="3" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="-2" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="2" y="4" z="14" spawntime="60"/>
+    <monster name="Undead Dragon" x="4" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="5" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="6" y="4" z="14" spawntime="60"/>
+    <monster name="Demon" x="8" y="4" z="14" spawntime="60"/>
     <monster name="Undead Dragon" x="0" y="5" z="14" spawntime="120"/>
   </spawn>
   <spawn centerx="466" centery="1539" centerz="14" radius="20">
     <monster name="Juggernaut" x="1" y="-14" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="2" y="-14" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="3" y="-14" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="4" y="-14" z="14" spawntime="60"/>
     <monster name="Destroyer" x="5" y="-14" z="14" spawntime="120"/>
     <monster name="Destroyer" x="-4" y="-13" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="-3" y="-13" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-2" y="-13" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="1" y="-13" z="14" spawntime="60"/>
     <monster name="Destroyer" x="2" y="-13" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="3" y="-13" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="4" y="-13" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="5" y="-13" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="6" y="-13" z="14" spawntime="60"/>
+    <monster name="Fury" x="0" y="-12" z="14" spawntime="60"/>
+    <monster name="Fury" x="2" y="-12" z="14" spawntime="60"/>
+    <monster name="Fury" x="3" y="-12" z="14" spawntime="60"/>
     <monster name="Demon" x="5" y="-12" z="14" spawntime="120"/>
+    <monster name="Fury" x="6" y="-12" z="14" spawntime="60"/>
     <monster name="Destroyer" x="-4" y="-11" z="14" spawntime="120"/>
+    <monster name="Fury" x="3" y="-11" z="14" spawntime="60"/>
     <monster name="Fury" x="4" y="-11" z="14" spawntime="120"/>
+    <monster name="Fury" x="6" y="-11" z="14" spawntime="60"/>
+    <monster name="Fury" x="6" y="-10" z="14" spawntime="60"/>
+    <monster name="Fury" x="9" y="-10" z="14" spawntime="60"/>
+    <monster name="Fury" x="-4" y="-9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="1" y="-9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="4" y="-9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="6" y="-9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="8" y="-9" z="14" spawntime="60"/>
+    <monster name="Fury" x="9" y="-9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="5" y="-8" z="14" spawntime="60"/>
     <monster name="Destroyer" x="-2" y="-7" z="14" spawntime="120"/>
     <monster name="Demon" x="3" y="-7" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="7" y="-7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="9" y="-7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="10" y="-7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="11" y="-7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-15" y="-6" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-13" y="-6" z="14" spawntime="60"/>
+    <monster name="Fury" x="-12" y="-6" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-4" y="-6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="2" y="-6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="3" y="-6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="5" y="-6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="7" y="-6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="11" y="-6" z="14" spawntime="60"/>
+    <monster name="Fury" x="-17" y="-5" z="14" spawntime="60"/>
+    <monster name="Fury" x="-15" y="-5" z="14" spawntime="60"/>
+    <monster name="Fury" x="-14" y="-5" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-12" y="-4" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="-4" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-3" y="-4" z="14" spawntime="60"/>
+    <monster name="Fury" x="7" y="-4" z="14" spawntime="60"/>
+    <monster name="Fury" x="8" y="-4" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="10" y="-4" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-17" y="-3" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-16" y="-3" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-15" y="-3" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="-3" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-4" y="-3" z="14" spawntime="60"/>
+    <monster name="Fury" x="1" y="-3" z="14" spawntime="60"/>
+    <monster name="Fury" x="4" y="-3" z="14" spawntime="60"/>
+    <monster name="Fury" x="7" y="-3" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="10" y="-3" z="14" spawntime="60"/>
     <monster name="Juggernaut" x="12" y="-3" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="-17" y="-2" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-15" y="-2" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-12" y="-2" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="-2" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-5" y="-2" z="14" spawntime="60"/>
     <monster name="Destroyer" x="-3" y="-2" z="14" spawntime="120"/>
+    <monster name="Fury" x="-1" y="-2" z="14" spawntime="60"/>
+    <monster name="Fury" x="1" y="-2" z="14" spawntime="60"/>
+    <monster name="Fury" x="3" y="-2" z="14" spawntime="60"/>
+    <monster name="Fury" x="5" y="-2" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="10" y="-2" z="14" spawntime="1536"/>
+    <monster name="Juggernaut" x="-15" y="-1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-14" y="-1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-13" y="-1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-12" y="-1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="-1" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="9" y="-1" z="14" spawntime="60"/>
     <monster name="Juggernaut" x="11" y="-1" z="14" spawntime="120"/>
     <monster name="Destroyer" x="-15" y="0" z="14" spawntime="120"/>
+    <monster name="Fury" x="-10" y="0" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-9" y="0" z="14" spawntime="60"/>
     <monster name="Destroyer" x="-8" y="0" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="-7" y="0" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-5" y="0" z="14" spawntime="60"/>
     <monster name="Juggernaut" x="-3" y="0" z="14" spawntime="120"/>
+    <monster name="Fury" x="-2" y="0" z="14" spawntime="60"/>
+    <monster name="Fury" x="3" y="0" z="14" spawntime="60"/>
+    <monster name="Fury" x="9" y="0" z="14" spawntime="60"/>
+    <monster name="Fury" x="10" y="0" z="14" spawntime="60"/>
+    <monster name="Fury" x="12" y="0" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-17" y="1" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-16" y="1" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-15" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-13" y="1" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-11" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-9" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-8" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-7" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-1" y="1" z="14" spawntime="60"/>
     <monster name="Fury" x="2" y="1" z="14" spawntime="120"/>
+    <monster name="Fury" x="7" y="1" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="9" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="12" y="1" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="2" z="14" spawntime="60"/>
+    <monster name="Fury" x="-10" y="2" z="14" spawntime="60"/>
+    <monster name="Fury" x="-9" y="2" z="14" spawntime="60"/>
+    <monster name="Fury" x="-7" y="2" z="14" spawntime="60"/>
     <monster name="Fury" x="-6" y="2" z="14" spawntime="120"/>
+    <monster name="Fury" x="-2" y="2" z="14" spawntime="60"/>
     <monster name="Juggernaut" x="2" y="2" z="14" spawntime="120"/>
+    <monster name="Fury" x="5" y="2" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="11" y="2" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-12" y="3" z="14" spawntime="60"/>
+    <monster name="Fury" x="-11" y="3" z="14" spawntime="60"/>
+    <monster name="Fury" x="-1" y="3" z="14" spawntime="60"/>
     <monster name="Fury" x="2" y="3" z="14" spawntime="120"/>
+    <monster name="Destroyer" x="4" y="3" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="11" y="3" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-15" y="4" z="14" spawntime="60"/>
+    <monster name="Fury" x="-14" y="4" z="14" spawntime="60"/>
+    <monster name="Fury" x="-13" y="4" z="14" spawntime="60"/>
+    <monster name="Fury" x="-3" y="4" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="3" y="4" z="14" spawntime="60"/>
     <monster name="Fury" x="5" y="4" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="8" y="4" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="9" y="4" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="10" y="4" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-17" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="-16" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="-14" y="5" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-12" y="5" z="14" spawntime="60"/>
     <monster name="Destroyer" x="1" y="5" z="14" spawntime="120"/>
+    <monster name="Destroyer" x="3" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="10" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="11" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="12" y="5" z="14" spawntime="60"/>
+    <monster name="Fury" x="-13" y="6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="3" y="6" z="14" spawntime="60"/>
+    <monster name="Fury" x="5" y="6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="10" y="6" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="11" y="6" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-16" y="7" z="14" spawntime="60"/>
+    <monster name="Fury" x="-15" y="7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-11" y="7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-5" y="7" z="14" spawntime="60"/>
+    <monster name="Fury" x="7" y="7" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="9" y="7" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-12" y="8" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="1" y="8" z="14" spawntime="60"/>
     <monster name="Destroyer" x="3" y="8" z="14" spawntime="120"/>
+    <monster name="Destroyer" x="7" y="8" z="14" spawntime="60"/>
     <monster name="Fury" x="8" y="8" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="-4" y="9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="1" y="9" z="14" spawntime="60"/>
+    <monster name="Destroyer" x="6" y="9" z="14" spawntime="60"/>
+    <monster name="Fury" x="8" y="9" z="14" spawntime="60"/>
+    <monster name="Fury" x="9" y="9" z="14" spawntime="60"/>
+    <monster name="Fury" x="10" y="9" z="14" spawntime="60"/>
+    <monster name="Juggernaut" x="-1" y="10" z="14" spawntime="60"/>
+    <monster name="Fury" x="3" y="10" z="14" spawntime="60"/>
     <monster name="Fury" x="4" y="10" z="14" spawntime="120"/>
+    <monster name="Juggernaut" x="-2" y="11" z="14" spawntime="60"/>
+    <monster name="Fury" x="1" y="11" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="534" centery="1563" centerz="14" radius="30">
     <monster name="Defiler" x="8" y="-24" z="14" spawntime="60"/>
