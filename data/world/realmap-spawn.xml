@@ -49631,51 +49631,295 @@
     <monster name="Nightmare" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="376" centery="1361" centerz="11" radius="10">
+    <monster name="Dragon Lord" x="2" y="-7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-4" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="8" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="1" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="4" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="2" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-3" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="9" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="3" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-5" y="4" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-7" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="5" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="9" y="5" z="11" spawntime="60"/>
-  </spawn>
-  <spawn centerx="402" centery="1361" centerz="11" radius="5">
-    <monster name="Dragon Lord" x="-4" y="-2" z="11" spawntime="140"/>
-    <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="140"/>
-    <monster name="Dragon Lord" x="1" y="1" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-3" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="7" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="490" centery="1361" centerz="11" radius="1">
     <monster name="Nightmare" x="0" y="-1" z="11" spawntime="60"/>
     <monster name="Destroyer" x="-1" y="0" z="11" spawntime="60"/>
     <monster name="Dark Torturer" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="400" centery="1364" centerz="11" radius="8">
+    <monster name="Dragon Lord" x="0" y="-8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-5" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="2" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-4" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="2" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-2" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-8" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="8" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="451" centery="1375" centerz="11" radius="5">
     <monster name="Destroyer" x="-3" y="-4" z="11" spawntime="30"/>
+    <monster name="Destroyer" x="1" y="-2" z="11" spawntime="60"/>
     <monster name="Spectre" x="-3" y="-1" z="11" spawntime="300"/>
+    <monster name="Destroyer" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-2" y="1" z="11" spawntime="60"/>
     <monster name="Destroyer" x="-1" y="3" z="11" spawntime="300"/>
+    <monster name="Destroyer" x="-1" y="5" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="410" centery="1376" centerz="11" radius="5">
+    <monster name="Dragon Lord" x="3" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-3" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="2" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-2" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="4" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="375" centery="1383" centerz="11" radius="7">
+    <monster name="Dragon Lord" x="-3" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="1" y="-1" z="11" spawntime="120"/>
-    <monster name="Dragon Lord" x="-3" y="1" z="11" spawntime="120"/>
-    <monster name="Dragon Lord" x="7" y="6" z="11" spawntime="60"/>
-  </spawn>
-  <spawn centerx="451" centery="1386" centerz="11" radius="5">
-    <monster name="Destroyer" x="3" y="-1" z="11" spawntime="300"/>
-    <monster name="Destroyer" x="-4" y="1" z="11" spawntime="300"/>
-  </spawn>
-  <spawn centerx="395" centery="1387" centerz="11" radius="5">
-    <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="0" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="1" z="11" spawntime="120"/>
+    <monster name="Dragon Lord" x="1" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="7" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="410" centery="1386" centerz="11" radius="4">
+    <monster name="Dragon Lord" x="0" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="3" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="454" centery="1386" centerz="11" radius="5">
+    <monster name="Destroyer" x="-2" y="-5" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="3" y="-2" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="-1" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="5" y="0" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-4" y="1" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="2" y="1" z="11" spawntime="60"/>
+    <monster name="Spectre" x="3" y="1" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-4" y="2" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-2" y="2" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="0" y="2" z="11" spawntime="60"/>
+    <monster name="Spectre" x="3" y="2" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-2" y="4" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="5" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="395" centery="1387" centerz="11" radius="7">
+    <monster name="Dragon Lord" x="-1" y="-7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="3" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="4" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="5" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-3" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="7" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="425" centery="1387" centerz="11" radius="10">
+    <monster name="Dragon Lord" x="-4" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-2" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-1" y="-2" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-6" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-9" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="8" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-8" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="9" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-8" y="2" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="8" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="3" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="3" y="3" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="6" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-9" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-7" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="6" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-3" y="8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="9" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="10" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="10" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="10" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="496" centery="1389" centerz="11" radius="5">
     <monster name="Destroyer" x="-2" y="-3" z="11" spawntime="60"/>
@@ -49685,9 +49929,34 @@
     <monster name="Hellfire Fighter" x="1" y="3" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="408" centery="1396" centerz="11" radius="5">
+    <monster name="Dragon Lord" x="-5" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-3" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="256"/>
-    <monster name="Dragon" x="0" y="3" z="11" spawntime="60"/>
-    <monster name="Dragon" x="3" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="5" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="474" centery="1397" centerz="11" radius="5">
     <monster name="Hellfire Fighter" x="-4" y="0" z="11" spawntime="300"/>
@@ -49697,28 +49966,103 @@
   </spawn>
   <spawn centerx="458" centery="1398" centerz="11" radius="10">
     <monster name="Destroyer" x="-5" y="-6" z="11" spawntime="300"/>
+    <monster name="Destroyer" x="-6" y="-5" z="11" spawntime="60"/>
+    <monster name="Destroyer" x="-5" y="-5" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-2" y="-4" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-4" y="-3" z="11" spawntime="60"/>
+    <monster name="Spectre" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Spectre" x="0" y="-3" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-2" y="-1" z="11" spawntime="60"/>
     <monster name="Hellfire Fighter" x="2" y="0" z="11" spawntime="300"/>
     <monster name="Destroyer" x="5" y="0" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="4" y="1" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-1" y="2" z="11" spawntime="60"/>
     <monster name="Diabolic Imp" x="-2" y="3" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="-3" y="4" z="11" spawntime="60"/>
     <monster name="Hellfire Fighter" x="1" y="4" z="11" spawntime="300"/>
     <monster name="Diabolic Imp" x="9" y="4" z="11" spawntime="300"/>
     <monster name="Diabolic Imp" x="-6" y="6" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="-5" y="6" z="11" spawntime="60"/>
     <monster name="Destroyer" x="-1" y="6" z="11" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="-5" y="7" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-3" y="7" z="11" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="-1" y="9" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="495" centery="1405" centerz="11" radius="5">
     <monster name="Plaguesmith" x="0" y="-5" z="11" spawntime="60"/>
     <monster name="Hellfire Fighter" x="0" y="1" z="11" spawntime="120"/>
     <monster name="Destroyer" x="2" y="2" z="11" spawntime="60"/>
   </spawn>
-  <spawn centerx="420" centery="1411" centerz="11" radius="7">
-    <monster name="Dragon Lord" x="-2" y="-5" z="11" spawntime="140"/>
-    <monster name="Dragon Lord" x="1" y="-4" z="11" spawntime="60"/>
-    <monster name="Dragon Lord" x="-2" y="3" z="11" spawntime="60"/>
+  <spawn centerx="421" centery="1408" centerz="11" radius="7">
+    <monster name="Dragon Lord" x="0" y="-6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-2" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="7" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="7" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="381" centery="1412" centerz="11" radius="10">
+    <monster name="Dragon Lord" x="9" y="-10" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="-10" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="8" y="-9" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="-9" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="-8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-8" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="-8" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="3" y="-6" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="1" y="-5" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="4" y="-5" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="0" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="-4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="-3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="5" y="1" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-3" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="2" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-5" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="3" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-8" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="4" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="1" y="4" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-6" y="5" z="11" spawntime="140"/>
+    <monster name="Dragon Lord" x="-3" y="5" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="0" y="6" z="11" spawntime="60"/>
+    <monster name="Dragon Lord" x="-2" y="7" z="11" spawntime="60"/>
     <monster name="Dragon Lord" x="-4" y="8" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="478" centery="1412" centerz="11" radius="5">
