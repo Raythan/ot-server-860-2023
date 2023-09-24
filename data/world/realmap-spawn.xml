@@ -43996,10 +43996,7 @@
     <monster name="Red Butterfly" x="1" y="3" z="10" spawntime="60"/>
     <monster name="Blue Butterfly" x="-1" y="4" z="10" spawntime="60"/>
   </spawn>
-  <spawn centerx="460" centery="1379" centerz="10" radius="5">
-    <monster name="Blightwalker" x="2" y="1" z="10" spawntime="120"/>
-    <monster name="Blightwalker" x="-1" y="2" z="10" spawntime="120"/>
-  </spawn>
+  <spawn centerx="460" centery="1379" centerz="10" radius="5"/>
   <spawn centerx="33186" centery="3260" centerz="10" radius="5">
     <monster name="Scarab" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
