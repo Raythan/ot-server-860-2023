@@ -394,16 +394,6 @@ Attr_ReadValue Item::readAttr(AttrTypes_t attr, PropStream& propStream)
 			setAttribute("attack", attack);
 			break;
 		}
-		
-		case ATTR_ABSORBFIRE:
-		{
-			int32_t absorbPercentFire;
-			if(!propStream.getLong((uint32_t&)absorbPercentFire))
-				return ATTR_READ_ERROR;
-
-			setAttribute("absorbPercentFire", absorbPercentFire);
-			break;
-		}
 
 		case ATTR_EXTRAATTACK:
 		{
